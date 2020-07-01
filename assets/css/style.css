@@ -109,3 +109,57 @@ header {
     background-size: cover;
     min-height: 500px;
 }
+
+
+/*------------------------------------------------------------------footer*/
+
+footer {
+    background-color: #000000;
+    color: #fafafa;
+    min-height: 45px;
+    margin: 0;
+}
+
+
+.social-links {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 25%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #000000;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: red;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+
+
+/*------------------------------------------------------------------responsive*/
+
+@media only screen and (max-width: 600px) {
+  .name {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+}
+  
