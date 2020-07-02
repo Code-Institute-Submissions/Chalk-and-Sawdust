@@ -154,12 +154,65 @@ footer {
 
 /*------------------------------------------------------------------responsive*/
 
-@media only screen and (max-width: 600px) {
-  .name {
+label {
+    display: none;
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 32px;
+    border: solid 1px #000000;
+    border-radius: 25%;
+    width: 32px;
+    text-align: center;
+    float: right;
+    background-color: #fafafa;
+}
+
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+
+.logo {
+    display: none;
+}
+
+
+.name {
     text-align: center;
     margin: 0;
-    padding-top: 10px;
+    padding-top: 40px;
   }
+
+label {
+    display: block;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 20px;
+} 
+
+.menu {
+    text-align: center;
+    display: none;
+}
+
+.menu li {
+    display: block;
+    margin: 0;
+    clear: right;
+    float: right;
+    right: 20px;
+    border-bottom: solid 1px #000000;
+}
+
+#dropdown {
+    position: absolute;
+    z-index: 99;
+}
+
+#toggle:checked + .menu {
+    display: block;
+}
 
 }
   
