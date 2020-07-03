@@ -34,17 +34,14 @@
 
 
 /*------------------------------------------------------------------header*/
+.heading {
+height: 100%;
+}
+
 
 header {
     margin: 0;
-}
-
-.logo {
-    background: url(../images/gym-logo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 130px;
+    padding: 0;
 }
 
 .name {
@@ -55,6 +52,7 @@ header {
     margin-top: 50px;
     margin-left: 125px;
     min-height: 130px;
+    text-align: center;
 }
 
 .list-inline-item:not(:last-child) {
@@ -73,7 +71,16 @@ header {
 .menuitem {
  height: 60px;
  text-align: center;
+ transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
+
+.menuitem:hover {
+    background: red;
+}
+
 
 .menuitem a {
     width: 100%;
@@ -124,6 +131,7 @@ footer {
 .social-links {
     padding-top: 20px;
     text-align: center;
+    word-spacing: 50px;
 }
 
 .social-links li a i {
@@ -184,6 +192,15 @@ label {
     padding-top: 40px;
   }
 
+.heading {
+    margin-bottom: 20px;
+}
+
+.front-page-bg {
+    border-top: solid 1px red;
+    border-bottom: solid 1px red;
+}
+
 label {
     display: block;
     cursor: pointer;
@@ -202,7 +219,12 @@ label {
     clear: right;
     float: right;
     right: 20px;
-    border-bottom: solid 1px #000000;
+    border: solid 1px #000000;
+    border-radius: 10%;
+}
+
+.menuitem span {
+    font-size: 20px;
 }
 
 #dropdown {
