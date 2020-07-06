@@ -226,11 +226,13 @@ label {
     float: right;
     right: 20px;
     border: solid 1px #000000;
-    border-radius: 10%;
+    border-radius: 10px;
+    
 }
 
 .menuitem span {
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
 #dropdown {
