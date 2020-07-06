@@ -124,6 +124,22 @@
     margin: 0;
 }
 
+/*------------------------------------------------------------------index page*/
+
+.sign-up {
+    margin-top: 50%;
+    background: rgba(0, 0, 0, 0.8);
+    color: red;
+}
+
+.jumbo-button {
+    margin-left: 50%;
+    background-color: #520000;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
 /*------------------------------------------------------------------background stuff*/
 
 .front-page-bg {
@@ -131,7 +147,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 750px;
 }
 
 
