@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+/*------------------------------------------------------------------general*/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
 
 /*------------------------------------------------------------------colors*/
 
@@ -40,6 +46,7 @@
 
 /*------------------------------------------------------------------header*/
 
+
 .heading {
     height:auto;
     margin-bottom: 30px;
@@ -59,7 +66,7 @@
 
 
 .name {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 46px;
     color: #fafafa;
@@ -125,18 +132,29 @@
 }
 
 /*------------------------------------------------------------------index page*/
-
-.sign-up {
-    margin-top: 50%;
-    background: rgba(0, 0, 0, 0.8);
-    color: red;
+.container-padding {
+    margin: 0;
+    padding: 0;
 }
 
-.jumbo-button {
-    margin-left: 50%;
+.sign-up {
+    margin-top: 150px;
+    background: rgba(0, 0, 0, 0.8);
+    color: red;
+    text-align: center;
+}
+
+.jumbo-button button {
     background-color: #520000;
     border: 2px solid black;
     border-radius: 10px;
+    color: #fafafa;
+    height: 50px;
+    width: 125px;
+}
+
+.jumbo-button button:hover {
+    background-color: red;
 }
 
 
@@ -147,7 +165,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 750px;
+    min-height: 650px;
 }
 
 
