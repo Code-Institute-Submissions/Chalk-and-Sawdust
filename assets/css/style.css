@@ -138,7 +138,7 @@ body {
 }
 
 .sign-up {
-    margin-top: 150px;
+    margin-top: 125px;
     background: rgba(0, 0, 0, 0.8);
     color: red;
     text-align: center;
@@ -301,6 +301,7 @@ label {
 
 .sign-up {
     font-size: 26px;
+    margin-top: 75px;
 }
 
 .sign-up h1 {
@@ -310,6 +311,13 @@ label {
 .jumbo-button button {
     height: 65px;
     width: 155px;
+}
+}
+
+@media only screen and (min-width: 1100px) {
+
+.sign-up {
+    margin-top: 95px;
 }
 }
 
