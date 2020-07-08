@@ -153,13 +153,14 @@ body {
     font-size: 46px;
 }
 
-.jumbo-button button {
+.jumbo-button {
     background-color: #520000;
     border: 2px solid black;
     border-radius: 10px;
     color: #fafafa;
     height: 50px;
     width: 125px;
+    margin-top: 20px;
 }
 
 .jumbo-button button:hover {
