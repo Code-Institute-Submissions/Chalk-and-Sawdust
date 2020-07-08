@@ -132,6 +132,7 @@ body {
 }
 
 /*------------------------------------------------------------------index page*/
+
 .container-padding {
     margin: 0;
     padding: 0;
@@ -319,6 +320,14 @@ label {
 .sign-up {
     margin-top: 95px;
 }
+}
+
+@media only screen and (min-width: 313px) {
+
+.heading {
+    padding-left: 30px;
+}
+
 }
 
 
