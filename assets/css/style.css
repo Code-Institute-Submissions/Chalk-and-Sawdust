@@ -45,15 +45,20 @@ body {
 
 
 /*------------------------------------------------------------------header*/
+.header-bar {
+    max-height: 160px;
+}
 
 
 .heading {
     height:auto;
     margin-bottom: 30px;
     
+    
 }
 
 .logo img {
+    max-height: 160px;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -68,13 +73,13 @@ body {
 .name {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 46px;
+    font-size: 40px;
     color: #fafafa;
-    margin: 0;
     text-align: center;
-    padding-top: 40px;
-    padding-left: 30px;
-    min-height: 100px;
+    margin-top: 15px;
+    position: relative;
+    top: 10px;
+    left: 20px;
     
 }
 
@@ -255,11 +260,6 @@ label {
 }
 
 
-.heading {
-    margin-bottom: 30px;
-    padding-left: 85px;
-}
-
 .front-page-bg {
     border-top: solid 1px red;
     border-bottom: solid 1px red;
@@ -285,6 +285,7 @@ label {
     right: 20px;
     border: solid 1px #000000;
     border-radius: 10px;
+    min-width: 200px;
     
 }
 
@@ -321,13 +322,9 @@ label {
 }
 }
 
+@media only screen and (min-width: 1150px) {
 
-@media only screen and (min-width: 313px) {
-
-.heading {
-    padding-left: 30px;
+.name {
+    padding-top: 20px;
 }
-
 }
-
-
