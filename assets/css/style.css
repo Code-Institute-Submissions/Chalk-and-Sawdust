@@ -132,14 +132,18 @@ body {
 }
 
 /*------------------------------------------------------------------index page*/
+.jumbo-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 
 .container-padding {
-    margin: 0;
     padding: 0;
 }
 
 .sign-up {
-    margin-top: 125px;
+    
     background: rgba(0, 0, 0, 0.8);
     color: red;
     text-align: center;
@@ -175,7 +179,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 650px;
+    min-height: 620px;
 }
 
 
@@ -245,6 +249,7 @@ label {
 
 @media only screen and (max-width: 1050px) {
 
+
 .logo {
     display: none;
 }
@@ -303,25 +308,19 @@ label {
 
 .sign-up {
     font-size: 26px;
-    margin-top: 75px;
+    
 }
 
 .sign-up h1 {
     font-size: 55px;
 }
 
-.jumbo-button button {
+.jumbo-button {
     height: 65px;
     width: 155px;
 }
 }
 
-@media only screen and (min-width: 1100px) {
-
-.sign-up {
-    margin-top: 95px;
-}
-}
 
 @media only screen and (min-width: 313px) {
 
