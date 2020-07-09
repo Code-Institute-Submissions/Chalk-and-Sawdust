@@ -78,7 +78,7 @@ body {
     text-align: center;
     margin-top: 15px;
     position: relative;
-    top: 10px;
+    top: 25%;
     left: 20px;
     
 }
@@ -254,6 +254,10 @@ label {
 
 @media only screen and (max-width: 1050px) {
 
+.header-bar {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 29%, rgba(170,21,21,1) 89%, rgba(255,0,0,1) 100%);
+}
 
 .logo {
     display: none;
@@ -319,12 +323,5 @@ label {
 .jumbo-button {
     height: 65px;
     width: 155px;
-}
-}
-
-@media only screen and (min-width: 1150px) {
-
-.name {
-    padding-top: 20px;
 }
 }
