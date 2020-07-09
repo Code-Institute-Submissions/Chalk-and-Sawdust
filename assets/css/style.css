@@ -178,6 +178,17 @@ body {
     background-color: red;
 }
 
+.jumbo-button:active {
+    box-shadow: 0 5px #2e0000;
+    background-color: red;
+    transform: translateY(5px);
+    outline:none;
+}
+
+.jumbo-button:focus {
+    outline:none;
+}
+
 
 /*------------------------------------------------------------------background stuff*/
 
