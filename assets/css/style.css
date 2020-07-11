@@ -225,6 +225,8 @@ body {
 
 /*------------------------------------------------------------------the big 3 */
 
+
+
 .intro {
     padding: 20px;
     text-align: center;
@@ -426,5 +428,32 @@ label {
 .jumbo-button {
     height: 65px;
     width: 155px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+
+    
+.squat-text {
+    margin-top: 75px;
+}
+
+.bench-text {
+    margin-top: 75px;
+}
+
+.deadlift-text {
+    margin-top: 75px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+.intro{
+    max-width: 75%;
+    margin: auto;
 }
 }
