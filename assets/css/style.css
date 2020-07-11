@@ -6,7 +6,27 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+body p {
+    font-size: 20px;
+    color: #fafafa;
+}
+
+body h1 {
+    font-size: 60px;
+    color: #fafafa;
+    text-align: center;
+}
+
+body h2 {
+    font-size: 30px;
+    color: #fafafa;
+}
+
 /*------------------------------------------------------------------colors*/
+
+body {
+    background-color: #520000;
+}
 
 .bg-color-name {
     background-color: #000000;
@@ -41,6 +61,17 @@ body {
     background-color: #520000;
 }
 
+.squat-container {
+    background-color: black;
+}
+
+.benchpress-container {
+    background-color: black;
+}
+
+.deadlift-container {
+    background-color: black;
+}
 
 
 
@@ -137,6 +168,7 @@ body {
 }
 
 /*------------------------------------------------------------------index page*/
+
 .jumbo-container {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -189,6 +221,22 @@ body {
     outline:none;
 }
 
+
+/*------------------------------------------------------------------the big 3 */
+.squat-video {
+    height: 100%;
+    width: 100%;
+}
+
+.bench-video {
+    height: 100%;
+    width: 100%;
+}
+
+.deadlift-video {
+    height: 100%;
+    width: 100%;
+}
 
 /*------------------------------------------------------------------background stuff*/
 
