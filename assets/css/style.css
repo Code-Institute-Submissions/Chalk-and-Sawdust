@@ -12,7 +12,7 @@ body p {
 }
 
 body h1 {
-    font-size: 60px;
+    font-size: 32px;
     color: #fafafa;
     text-align: center;
 }
@@ -223,6 +223,32 @@ body {
 
 
 /*------------------------------------------------------------------the big 3 */
+
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+.squat-container {
+    padding: 25px;
+    text-align: center;
+    
+}
+
+.bench-container {
+    padding: 25px;
+    text-align: center;
+    
+}
+
+.deadlift-container {
+    padding: 25px;
+    text-align: center;
+    border-bottom: 2px solid red;
+    
+}
+
+
 .squat-video {
     height: 100%;
     width: 100%;
