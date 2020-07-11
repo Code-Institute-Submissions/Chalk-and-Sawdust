@@ -192,6 +192,7 @@ body {
     padding-top: 10px;
     padding-bottom: 20px;
     font-size: 46px;
+    color: red;
 }
 
 .jumbo-button {
@@ -252,16 +253,31 @@ body {
 .squat-video {
     height: 100%;
     width: 100%;
+    margin-top: 10px;
+}
+
+.squat-text {
+    margin-top: 10px;
 }
 
 .bench-video {
     height: 100%;
     width: 100%;
+    margin-top: 10px;
+}
+
+.bench-text {
+    margin-top: 10px;
 }
 
 .deadlift-video {
     height: 100%;
     width: 100%;
+    margin-top: 10px;
+}
+
+.deadlift-text {
+    margin-top: 10px;
 }
 
 /*------------------------------------------------------------------background stuff*/
