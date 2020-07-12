@@ -269,6 +269,7 @@ height: 100%;
 
 .squat-text {
     margin-top: 10px;
+    top: 20px;
 }
 
 .bench-video-container {
@@ -289,6 +290,7 @@ height: 100%;
 
 .bench-text {
     margin-top: 10px;
+    top: 20px;
 }
 
 .deadlift-video-container {
@@ -309,6 +311,7 @@ height: 100%;
 
 .deadlift-text {
     margin-top: 10px;
+    top: 20px;
 }
 
 /*------------------------------------------------------------------background stuff*/
@@ -464,15 +467,15 @@ label {
 
     
 .squat-text {
-    margin-top: 75px;
+    padding-top: 8%;
 }
 
 .bench-text {
-    margin-top: 75px;
+    padding-top: 8%;
 }
 
 .deadlift-text {
-    margin-top: 75px;
+    padding-top: 8%;
 }
 
 
