@@ -251,31 +251,60 @@ body {
     
 }
 
+.squat-video-container {
+position: relative;
+height: 0;
+width: 100%;
+padding-bottom: 56.25%; 
+}
 
 .squat-video {
-    height: 100%;
-    width: 100%;
-    margin-top: 10px;
+margin-top: 10px;
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;  
 }
 
 .squat-text {
     margin-top: 10px;
 }
 
+.bench-video-container {
+position: relative;
+height: 0;
+width: 100%;
+padding-bottom: 56.25%; 
+}
+
 .bench-video {
-    height: 100%;
-    width: 100%;
-    margin-top: 10px;
+margin-top: 10px;
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 
 .bench-text {
     margin-top: 10px;
 }
 
+.deadlift-video-container {
+position: relative;
+height: 0;
+width: 100%;
+padding-bottom: 56.25%; 
+}
+
 .deadlift-video {
-    height: 100%;
-    width: 100%;
-    margin-top: 10px;
+margin-top: 10px;
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 
 .deadlift-text {
