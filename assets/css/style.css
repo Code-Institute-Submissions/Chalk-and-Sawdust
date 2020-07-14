@@ -232,21 +232,28 @@ body {
     text-align: center;
 }
 
+.intro-box {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 .squat-container {
     padding: 25px;
     text-align: center;
+    padding-bottom: 50px;
     
 }
 
 .bench-container {
     padding: 25px;
     text-align: center;
-    
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .deadlift-container {
     padding: 25px;
     text-align: center;
+    padding-bottom: 50px;
     border-bottom: 2px solid red;
     
 }
@@ -318,6 +325,14 @@ height: 100%;
 
 .front-page-bg {
     background: url(../images/front-page.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 620px;
+}
+
+body {
+    background: url(../images/wall.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
