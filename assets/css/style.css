@@ -477,6 +477,16 @@ label {
     height: 65px;
     width: 155px;
 }
+
+body p {
+    font-size: 25px;
+}
+
+body h1 {
+    font-size: 36px;
+}
+
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -493,12 +503,6 @@ label {
 .deadlift-text {
     padding-top: 8%;
 }
-
-
-}
-
-
-@media only screen and (min-width: 768px) {
 
 .intro{
     max-width: 75%;
