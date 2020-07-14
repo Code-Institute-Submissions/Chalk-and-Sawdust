@@ -326,10 +326,10 @@ height: 100%;
 
 .about-box {
     background-color: rgba(0, 0, 0, 0.8);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .about-box p {
@@ -344,18 +344,39 @@ height: 100%;
 }
 
 .about-equipment {
-    background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
+    padding-bottom: 30px;
+}
+
+.about-equipment p {
+    text-align: center;
+    margin-top: 15px;
 }
 
 .about-pt {
-    background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
+    padding-bottom: 30px;
+}
+
+.about-pt p {
+    text-align: center;
+    margin-top: 15px;
 }
 
 .about-comps {
-    background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
+    padding-bottom: 30px;
+}
+
+.about-comps p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.about-images {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 60px;
+    border-bottom: 1px solid red;
 }
 
 /*------------------------------------------------------------------background images*/
