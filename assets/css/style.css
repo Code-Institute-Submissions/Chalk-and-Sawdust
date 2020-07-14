@@ -321,7 +321,44 @@ height: 100%;
     top: 20px;
 }
 
-/*------------------------------------------------------------------background stuff*/
+
+/*------------------------------------------------------------------about */
+
+.about-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-box p {
+    text-align: center;
+}
+
+.benefits {
+    background-color: rgba(0, 0, 0);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.about-equipment {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.about-pt {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.about-comps {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+/*------------------------------------------------------------------background images*/
 
 .front-page-bg {
     background: url(../images/front-page.png);
