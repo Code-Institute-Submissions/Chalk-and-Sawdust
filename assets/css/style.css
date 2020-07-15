@@ -379,6 +379,7 @@ height: 100%;
     border-bottom: 1px solid red;
 }
 
+
 /*------------------------------------------------------------------background images*/
 
 .front-page-bg {
@@ -566,4 +567,37 @@ body h1 {
     max-width: 75%;
     margin: auto;
 }
+}
+
+
+.form-name {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=text], input[type=email], select, textarea{
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid red;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+
+.form-button {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.fmbox {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+form {
+    color: red;
 }
