@@ -399,6 +399,85 @@ body {
 }
 
 
+/*------------------------------------------------------------------contact*/
+
+
+.contact-div {
+    padding-top: 20px;
+    background-color: #520000;
+}
+
+.contact-div p {
+    text-align: center;
+}
+
+.fm-div {
+    padding-top: 50px;
+}
+
+.form-name {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: red;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+input[type=text], input[type=email], select, textarea{
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid red;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.fbutton-div {
+    text-align: center;
+}
+
+
+.form-button {
+  background-color: red;
+  height: 60px;
+  width: 110px;
+  color: #fafafa;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.fmbox {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.comment-box {
+    height: 150px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.map-div {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+
 /*------------------------------------------------------------------footer*/
 
 footer {
@@ -567,60 +646,9 @@ body h1 {
     max-width: 75%;
     margin: auto;
 }
+
+.map-div {
+    margin-left: 30px;
+}
 }
 
-/*------------------------------------------------------------------contact*/
-
-
-.contact-div {
-    padding-top: 20px;
-    background-color: black;
-}
-
-.contact-div p {
-    text-align: center;
-}
-
-.fm-div {
-    padding-top: 50px;
-}
-
-.form-name {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-  color: red;
-  font-size: 20px;
-  margin-bottom: 0;
-}
-
-input[type=text], input[type=email], select, textarea{
-  padding: 10px;
-  width: 100%;
-  border-radius: 8px;
-  border: 2px solid red;
-  box-sizing: border-box;
-  resize: vertical;
-}
-
-.fbutton-div {
-    text-align: center;
-}
-
-
-.form-button {
-  background-color: red;
-  height: 60px;
-  width: 110px;
-  color: #fafafa;
-  cursor: pointer;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-.fmbox {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.comment-box {
-    height: 150px;
-}
