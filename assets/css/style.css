@@ -476,7 +476,9 @@ input[type=text], input[type=email], select, textarea{
     margin-bottom: 30px;
 }
 
-
+iframe {
+    max-height: 500px;
+}
 
 /*------------------------------------------------------------------footer*/
 
@@ -648,7 +650,8 @@ body h1 {
 }
 
 .map-div {
-    margin-left: 30px;
+    margin: auto;
 }
+
 }
 
