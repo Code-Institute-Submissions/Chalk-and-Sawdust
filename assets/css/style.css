@@ -398,6 +398,22 @@ body {
     height: auto;
 }
 
+.membership-bg-color{
+    background-color: rgba(0, 0, 0, 0.8);
+    }
+
+.membership-bg{
+background: url(../images/membership.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    max-width: 100%;
+
+}
+
+
+
 
 /*------------------------------------------------------------------contact*/
 
@@ -485,6 +501,48 @@ input[type=text], input[type=email], select, textarea{
 iframe {
     max-height: 500px;
 }
+
+
+/*------------------------------------------------------------------membership*/
+
+.membership-options {
+    text-align: center;
+    margin-top: 120px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.membership-options h1 {
+    color: red;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.membership-options ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.membership-options li {
+    font-size: 20px;
+    color: #fafafa;
+}
+
+.signup-div {
+    text-align: center;
+}
+
+.signup-btn {
+    height: 60px;
+    width: 150px;
+    border: 2px solid #2e0000;
+    border-radius: 5px;
+    background-color: #520000;
+    color: #fafafa;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
 
 
 
