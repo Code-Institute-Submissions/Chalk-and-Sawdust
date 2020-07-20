@@ -543,6 +543,14 @@ iframe {
     margin-top: 40px;
 }
 
+.signup-btn:hover {
+    background: red;
+}
+
+.signup-btn:focus {
+    outline:none;
+}
+
 
 
 
