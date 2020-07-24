@@ -89,63 +89,87 @@
 
 					<div class="modal fade" id="join-modal">
 						<div class="modal-dialogue modal-lg">
-                            <div class="modal-content">
-							<div class="modal-header">
-								<h2 class="modal-color">Sign up below</h2>
-							</div>
-							<div class="modal-body">
-								<form class="modal-color">
-						<div class="row">
-							<div class="col-6">
-								<label class="form-name" for="fname">First name*</label>
-								<input type="text" id="fname" name="fname"><br>
-                        </div>
-								<div class="col-6">
-									<label class="form-name" for="lname">Last name*</label>
-									<input type="text" id="lname" name="lname"><br>
-                        </div>
+							<div class="modal-content">
+								<div class="modal-header">
+									<h2 class="modal-color">Sign up below</h2>
 								</div>
-
-								<div class="row">
-									<div class="col-6">
-										<label class="form-name" for="email">Email Address*</label>
-										<input type="email" id="email" name="email"><br>
-                        </div>
-										<div class="col-6">
-											<label class="form-name" for="subject">Subject*</label>
-											<input type="text" id="subject" name="subject"><br>
-                        </div>
-										</div>
-
+								<div class="modal-body">
+									<form class="modal-color">
 										<div class="row">
-											<div class="col-12">
-												<label class="form-name" for="comment">Comment*</label>
-												<textarea type="text" id="comment" name="comment" class="comment-box"></textarea><br>
+											<div class="col-6">
+												<label class="form-name" for="fname">First name*</label>
+												<input type="text" id="fname" name="fname"><br>
                         </div>
-											</div>
+												<div class="col-6">
+													<label class="form-name" for="lname">Last name*</label>
+													<input type="text" id="lname" name="lname"><br>
+                        </div>
+												</div>
 
-											<div class="fbutton-div">
-												<input class="form-button" type="submit" value="Submit">
+												<div class="row">
+													<div class="col-6">
+														<label class="form-name" for="email">Email Address*</label>
+														<input type="email" id="email" name="email"><br>
+                        </div>
+														<div class="col-6">
+															<label for="birthdate">Birthday (month and year):</label>
+															<input type="month" id="birthdate" name="birthdate">
+                        </div>
+														</div>
+
+														<div class="row">
+															<div class="col-6">
+																<p>Membership package</p>
+																<input type="radio" id="bronze" name="membership-type" value="bronze">
+																<label for="bronze">Bronze</label><br>
+																<input type="radio" id="silver" name="membership-type" value="silver">
+																<label for="silver">Silver</label><br>
+																<input type="radio" id="gold" name="membership-type" value="gold">
+																<label for="gold">Gold</label>
+
+															</div>
+															<div class="col-6">
+																<label for="phone">Phone number:</label>
+																<input type="tel" id="phone" name="phone" pattern="[0-9]{5}-[0-9]{6}">
+                                                            </div>
+															</div>
+
+                                                            <div class="row">
+                                                            <div class="col-6">
+                                                                <label class="form-name" for="address">Address*</label>
+													            <input type="text" id="address" name="address"><br>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <label class="form-name" for="postcode">Postcode*</label>
+													            <input type="text" id="postcode" name="postcode"><br>
+                                                            </div>
+
+                                                            </div>
+
+
+
+															<div class="fbutton-div">
+																<input class="form-button" type="submit" value="Submit">
                         </div>
 
-					</form>
+									</form>
+								</div>
+								<div class="modal-footer modal-color">
+									<div class="close-button">
+										<div></div>
+										<div></div>
+									</div>
+								</div>
 							</div>
-							<div class="modal-footer modal-color">
-								<div class="close-button">
-                                <div></div>
-                                <div></div>
-                                </div>
-                            </div>
-                            </div>
 
-							</div>
 						</div>
-
-                        <a href="#" data-toggle="modal" data-target="#join-modal">JOIN NOW</a>
-
 					</div>
+
+					<a href="#" data-toggle="modal" data-target="#join-modal">JOIN NOW</a>
+
 				</div>
 			</div>
+		</div>
 
 
 	</section>
@@ -191,17 +215,17 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 	</script>
-    <script>
-    $(".close-button").click(function(event){
+	<script>
+		$(".close-button").click(function(event){
         $(this).parents(".modal").removeClass("show")
         $('#join-modal').modal('hide');
         $('body').removeClass('modal-open');
         $('.modal-backdrop').remove();
     });
     
-    </script>
+	</script>
 
-   
+
 
 </body>
 
