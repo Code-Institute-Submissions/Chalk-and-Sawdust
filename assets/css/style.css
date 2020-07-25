@@ -127,7 +127,7 @@ body {
 }
 
 .menuitem:hover {
-    background: red;
+    background: #cf0000;
 }
 
 
@@ -167,12 +167,13 @@ body {
 
 .container-padding {
     padding: 0;
+    margin: 0;
 }
 
 .sign-up {
     
     background: rgba(0, 0, 0, 0.8);
-    color: red;
+    color: #cf0000;
     text-align: center;
     font-size: 20px;
     
@@ -182,7 +183,7 @@ body {
     padding-top: 10px;
     padding-bottom: 20px;
     font-size: 46px;
-    color: red;
+    color: #cf0000;
 }
 
 .jumbo-button {
@@ -198,12 +199,12 @@ body {
 }
 
 .jumbo-button:hover {
-    background-color: red;
+    background-color: #cf0000;
 }
 
 .jumbo-button:active {
     box-shadow: 0 5px #2e0000;
-    background-color: red;
+    background-color: #cf0000;
     transform: translateY(5px);
     outline:none;
 }
@@ -244,7 +245,7 @@ body {
     padding: 25px;
     text-align: center;
     padding-bottom: 50px;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #cf0000;
     
 }
 
@@ -366,7 +367,7 @@ height: 100%;
 .about-images {
     background-color: rgba(0, 0, 0, 0.8);
     padding-top: 60px;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #cf0000;
 }
 
 
@@ -430,7 +431,7 @@ background: url(../images/membership.jpg);
 .form-name {
   padding: 12px 12px 12px 0;
   display: inline-block;
-  color: red;
+  color: #cf0000;
   font-size: 20px;
   margin-bottom: 0;
 }
@@ -439,7 +440,7 @@ input[type=text], input[type=email], select, textarea{
   padding: 10px;
   width: 100%;
   border-radius: 8px;
-  border: 2px solid red;
+  border: 2px solid #cf0000;
   box-sizing: border-box;
   resize: vertical;
 }
@@ -450,7 +451,7 @@ input[type=text], input[type=email], select, textarea{
 
 
 .form-button {
-  background-color: red;
+  background-color: #cf0000;
   height: 60px;
   width: 110px;
   color: #fafafa;
@@ -502,7 +503,7 @@ iframe {
 }
 
 .membership-options h1 {
-    color: red;
+    color: #cf0000;
     margin-bottom: 30px;
     padding-top: 20px;
 }
@@ -536,7 +537,7 @@ iframe {
 }
 
 .signup-btn:hover {
-    background: red;
+    background: #cf0000;
 }
 
 .signup-btn:focus {
@@ -555,7 +556,7 @@ iframe {
     position: absolute;
     right: 15px;
     bottom: 15px;
-    background-color: red;
+    background-color: #cf0000;
 }
 
 .close-button > div {
@@ -615,7 +616,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: red;
+    background: #cf0000;
 }
 
 
@@ -629,14 +630,11 @@ footer {
 .label-nav {
     display: none;
     margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 32px;
-    border: solid 1px #000000;
-    border-radius: 25%;
-    width: 32px;
+    font-size: 35px;
     text-align: center;
     float: right;
-    background-color: #fafafa;
+    color: #202020;
+       
 }
 
 #toggle {
@@ -657,10 +655,17 @@ footer {
     display: none;
 }
 
+.name{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    max-width: 80%;
+}
+
 
 .front-page-bg {
-    border-top: solid 1px red;
-    border-bottom: solid 1px red;
+    border-top: solid 1px #cf0000;
+    border-bottom: solid 1px #cf0000;
 }
 
 .navcontainer{
@@ -670,8 +675,8 @@ footer {
 .label-nav {
     display: block;
     cursor: pointer;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top: 10px;
+    margin-right: -20px;
 } 
 
 .menu {
@@ -692,23 +697,23 @@ footer {
 }
 
 .ui-menu-color-home {
-    background-color: rgba(23, 23, 23);
+    background-color: black;
 }
 
 .ui-menu-color-big3 {
-    background-color:  rgba(23, 23, 23);
+    background-color: black;
 }
 
 .ui-menu-color-about {
-    background-color: rgba(23, 23, 23);
+    background-color: black;
 }
 
 .ui-menu-color-contact {
-    background-color:  rgba(23, 23, 23);
+    background-color: black;
 }
 
 .ui-menu-color-membership {
-    background-color: rgba(23, 23, 23);
+    background-color: black;
 }
 
 #dropdown {
