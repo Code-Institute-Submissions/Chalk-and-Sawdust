@@ -82,28 +82,14 @@ body {
 
 /*------------------------------------------------------------------header*/
 .header-bar {
-    max-height: 160px;
-}
-
-
-.heading {
-    height:auto;
-    margin-bottom: 30px;
-    
-    
-}
-
-.logo img {
-    max-height: 160px;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    
-}
-
-.logo {
     padding: 0;
 }
+
+.header-bar img {
+    height: 100px;
+}
+
+
 
 
 .name {
@@ -112,11 +98,9 @@ body {
     font-size: 40px;
     color: #fafafa;
     text-align: center;
-    margin-top: 15px;
     position: relative;
-    top: 25%;
-    left: 20px;
-    
+    margin-top: 25px;
+       
 }
 
 .list-inline-item:not(:last-child) {
@@ -137,7 +121,7 @@ body {
 }
 
 .menuitem {
- width: 200px;
+ width: 300px;
  height: 60px;
  text-align: center;
  transition: all 0.35s ease-in-out;
@@ -156,10 +140,10 @@ body {
     width: 100%;
     text-decoration: none;
     color: #fafafa;
-    height: 60px;
+    height: 60x;
 }
 
-.menuitem span {
+.menuitem a {
     display: block;
     height: 100%;
     width: 100%;
@@ -682,6 +666,10 @@ footer {
     border-top: solid 1px red;
     border-bottom: solid 1px red;
 }
+
+.navcontainer{
+    margin: 0;
+} 
 
 .label-nav {
     display: block;
