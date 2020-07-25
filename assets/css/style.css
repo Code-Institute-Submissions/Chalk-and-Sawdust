@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 /*------------------------------------------------------------------general*/
 
+.hori-center {
+    margin: auto;
+    
+}
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -119,6 +124,10 @@ body {
 }
 
 .navcontainer {
+    text-align: center;
+}
+
+.navlist {
     font-size: 0;
 }
 
@@ -128,6 +137,7 @@ body {
 }
 
 .menuitem {
+ width: 200px;
  height: 60px;
  text-align: center;
  transition: all 0.35s ease-in-out;
