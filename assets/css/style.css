@@ -62,10 +62,6 @@ body {
     background-color: #520000;
 }
 
-.ui-menu-color-filler {
-    background-color: #520000;
-}
-
 .squat-container {
     background-color: black;
 }
@@ -689,15 +685,30 @@ footer {
     clear: right;
     float: right;
     right: 20px;
-    border: solid 1px #000000;
-    border-radius: 10px;
+    border: solid 1px #cf0000;
+    border-radius: 5px;
     min-width: 200px;
     
 }
 
-.menuitem span {
-    font-size: 20px;
-    letter-spacing: 1px;
+.ui-menu-color-home {
+    background-color: rgba(23, 23, 23);
+}
+
+.ui-menu-color-big3 {
+    background-color:  rgba(23, 23, 23);
+}
+
+.ui-menu-color-about {
+    background-color: rgba(23, 23, 23);
+}
+
+.ui-menu-color-contact {
+    background-color:  rgba(23, 23, 23);
+}
+
+.ui-menu-color-membership {
+    background-color: rgba(23, 23, 23);
 }
 
 #dropdown {
