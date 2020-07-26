@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="icon" type="img/png" href="favicon.png"/>
+
 	<title>Chalk and Sawdust PL Gym</title>
 </head>
 
@@ -26,19 +28,19 @@
 					<input type="checkbox" id="toggle"/>
 					<ul id="nav" class="list-inline navlist menu">
 						<li class="col-6 col-sm-2  list-inline-item ui-menu-color-home menuitem">
-							<a href="index.html">Home</a>
+							<a href="index.html" aria-label="this is a link to the home page">Home</a>
 						</li>
 						<li class="col-6 col-sm-2 list-inline-item ui-menu-color-big3 menuitem">
-							<a href="the-big-3.html">The Big 3</a>
+							<a href="the-big-3.html" aria-label="this is a link to the big 3 page">The Big 3</a>
 						</li>
 						<li class="col-6 col-sm-2 list-inline-item ui-menu-color-about menuitem">
-							<a href="about.html">About</a>
+							<a href="about.html" aria-label="this is a link to the about page">About</a>
 						</li>
 						<li class="col-6 col-sm-2 list-inline-item ui-menu-color-contact menuitem">
-							<a href="contact.html">Contact</a>
+							<a href="contact.html" aria-label="this is a link to the contact page">Contact</a>
 						</li>
 						<li class="col-6 col-sm-2 list-inline-item ui-menu-color-membership menuitem">
-							<a href="membership.html">Membership</a>
+							<a href="membership.html" aria-label="this is a link to the membership page">Membership</a>
 						</li>
 
 					</ul>
@@ -84,29 +86,29 @@
 						<div class="row">
 							<div class="col-6">
 								<label class="form-name" for="fname">First name*</label>
-								<input type="text" id="fname" name="fname"><br>
+								<input type="text" id="fname" name="fname" required><br>
                         </div>
 								<div class="col-6">
 									<label class="form-name" for="lname">Last name*</label>
-									<input type="text" id="lname" name="lname"><br>
+									<input type="text" id="lname" name="lname" required><br>
                         </div>
 								</div>
 
 								<div class="row">
 									<div class="col-6">
 										<label class="form-name" for="email">Email Address*</label>
-										<input type="email" id="email" name="email"><br>
+										<input type="email" id="email" name="email" required><br>
                         </div>
 										<div class="col-6">
 											<label class="form-name" for="subject">Subject*</label>
-											<input type="text" id="subject" name="subject"><br>
+											<input type="text" id="subject" name="subject" required><br>
                         </div>
 										</div>
 
 										<div class="row">
 											<div class="col-12">
 												<label class="form-name" for="comment">Comment*</label>
-												<textarea type="text" id="comment" name="comment" class="comment-box"></textarea><br>
+												<textarea type="text" id="comment" name="comment" class="comment-box" required></textarea><br>
                         </div>
 											</div>
 
