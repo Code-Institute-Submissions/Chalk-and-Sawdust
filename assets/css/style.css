@@ -162,6 +162,12 @@ body {
 .jumbo-container {
     margin-top: 100px;
     margin-bottom: 100px;
+    padding: 0;
+}
+
+.jumbo-mp{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 
@@ -198,8 +204,16 @@ body {
     box-shadow: 0 9px #2e0000;
 }
 
+.jumbo-button span {
+    position: relative;
+    top: 10px;
+}
+
+
 .jumbo-button:hover {
     background-color: #cf0000;
+    text-decoration: none;
+    color: #fafafa;
 }
 
 .jumbo-button:active {
@@ -676,7 +690,7 @@ footer {
     display: block;
     cursor: pointer;
     margin-top: 10px;
-    margin-right: -20px;
+    margin-right: 0;
 } 
 
 .menu {
