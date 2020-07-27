@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="icon" type="img/png" href="favicon.png"/>
+	<link rel="icon" type="img/png" href="favicon.png" />
 
 	<title>Chalk and Sawdust PL Gym</title>
 </head>
@@ -48,16 +48,16 @@
 			</div>
 		</nav>
 
-    <div class="container-fluid header-bar bg-color-name">
-        <div class="row no-gutters">
-            <div class="col-md-2 logo">
-                <a href="index.html"><img src="assets/images/CNSPL.png" alt="This is the logo"></a>
-            </div>
-            <div class="col-md-10 name">
-                <h1>Chalk And Sawdust Powerlifting Gym</h1>
-            </div>
-        </div>
-    </div>
+		<div class="container-fluid header-bar bg-color-name">
+			<div class="row no-gutters">
+				<div class="col-md-2 logo">
+					<a href="index.html"><img src="assets/images/CNSPL.png" alt="This is the logo"></a>
+				</div>
+				<div class="col-md-10 name">
+					<h1>Chalk And Sawdust Powerlifting Gym</h1>
+				</div>
+			</div>
+		</div>
 
 
 
@@ -84,7 +84,7 @@
 			</div>
 		</div>
 	</section>
-									
+
 
 	<footer class="container-fluid">
 
@@ -118,25 +118,90 @@
 
 	</footer>
 
-    <div class="modal" tabindex="-1" role="dialog" id="membership-modal">
-  <div class=".modal-dialog">
-    <div class="modal-content modal-bg-color">
-      <div class="modal-header">
-        <h2 class="modal-title">SIGN UP BELOW</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+
+	<div class="modal" tabindex="-1" role="dialog" id="membership-modal">
+		<div class=".modal-dialog">
+			<div class="modal-content modal-bg-color">
+				<div class="modal-header">
+					<h2 class="modal-title w-100 text-center">SIGN UP BELOW</h2>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-6">
+									<label for="fname">First Name</label>
+									<input type="text" class="form-control" id="fname">
+						        </div>
+								<div class="col-6">
+									<label for="lname">Last Name</label>
+									<input type="text" class="form-control" id="lname">
+                                </div>
+							</div>
+                            <div class="row">
+                                <div class="col">
+								<div class="form-group">
+									<label for="exampleInputEmail1">Email address</label>
+									    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+									<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+								</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-8">
+								    <div class="form-group">
+									    <label for="address">Address</label>
+									    <input type="text" class="form-control" id="address" aria-label="insert first line of your address here">
+								    </div>
+                                </div>
+                                <div class="col-4">
+								    <div class="form-group">
+									    <label for="postcode">Postcode</label>
+									    <input type="text" class="form-control" id="postcode" aria-label="insert your post code here">
+								    </div>
+                                </div>
+                            </div>
+                                
+
+
+								<div>
+									<p>Membership package</p>
+									<div class="btn-group btn-group-toggle" data-toggle="buttons">
+										<label class="btn btn-secondary active">
+                                    <input type="radio" name="options" id="bronze" autocomplete="off" checked> Bronze
+                                </label>
+										<label class="btn btn-secondary">
+                                    <input type="radio" name="options" id="silver" autocomplete="off"> Silver
+                                </label>
+										<label class="btn btn-secondary">
+                                    <input type="radio" name="options" id="gold" autocomplete="off"> Gold
+                                </label>
+									</div>
+								</div>
+
+
+								<div>
+									<p>Gender</p>
+									<div class="btn-group btn-group-toggle" data-toggle="buttons">
+										<label class="btn btn-secondary active">
+                                    <input type="radio" name="options" id="male" autocomplete="off" checked> Male
+                                </label>
+										<label class="btn btn-secondary">
+                                    <input type="radio" name="options" id="female" autocomplete="off"> Female
+                                </label>
+									</div>
+								</div>
+							</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 
@@ -149,7 +214,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 	</script>
-	
+
 
 </body>
 

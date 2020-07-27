@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+
 /*------------------------------------------------------------------general*/
 
 .hori-center {
@@ -551,6 +553,10 @@ iframe {
     color: #fafafa;
     font-size: 20px;
     margin-top: 40px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .signup-btn:hover {
@@ -565,13 +571,20 @@ iframe {
     color: black;
 }
 
-.modal-header{
+.modal-text {
     text-align: center;
 }
 
 .modal-header h2 {
     color: #cf0000;
+    
 }
+
+body { padding-right: 0 !important }
+#membership-modal {
+    padding-right: 0 !important;
+}
+
 
 /*------------------------------------------------------------------footer*/
 
