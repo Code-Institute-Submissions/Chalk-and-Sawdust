@@ -117,8 +117,11 @@
 		</div>
 
 	</footer>
+    
 
+    <!-- This is the modal for my membership sign up sheet -->
 
+    <div class="container-fluid"></div>
 	<div class="modal" tabindex="-1" role="dialog" id="membership-modal">
 		<div class=".modal-dialog">
 			<div class="modal-content modal-bg-color">
@@ -164,23 +167,28 @@
                             </div>
 
                             
-								<div>
-									<p class="modal-text">Membership package</p>
-									<div data-toggle="buttons radio-group">
-										<label class="radio-button">
-                                    <input type="radio" name="options" id="bronze" autocomplete="off" checked> Bronze
+								<div class="radio-group">
+                                <p>Membership Package</p>
+                                <label class="radio">
+                                    <input type="radio" value="bronze" name="membership">
+                                    Bronze
+                                    <span></span>
                                 </label>
-										<label class="radio-button">
-                                    <input type="radio" name="options" id="silver" autocomplete="off"> Silver
+                                <label class="radio">
+                                    <input type="radio" value="silver" name="membership">
+                                    Silver
+                                    <span></span>
                                 </label>
-										<label class="radio-button">
-                                    <input type="radio" name="options" id="gold" autocomplete="off"> Gold
+                                <label class="radio">
+                                    <input type="radio" value="gold" name="membership">
+                                    Gold
+                                    <span></span>
                                 </label>
-									</div>
-								</div>
+                            </div>
 
 
 							<div class="radio-group">
+                                <p>Gender</p>
                                 <label class="radio">
                                     <input type="radio" value="male" name="gender">
                                     Male
