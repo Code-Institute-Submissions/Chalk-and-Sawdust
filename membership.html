@@ -130,18 +130,18 @@
 						<div class="container-fluid">
 							<div class="row">
 								<div class="col-6">
-									<label for="fname">First Name</label>
+									<label class="modal-text" for="fname">First Name</label>
 									<input type="text" class="form-control" id="fname">
 						        </div>
 								<div class="col-6">
-									<label for="lname">Last Name</label>
+									<label class="modal-text" for="lname">Last Name</label>
 									<input type="text" class="form-control" id="lname">
                                 </div>
 							</div>
                             <div class="row">
                                 <div class="col">
 								<div class="form-group">
-									<label for="exampleInputEmail1">Email address</label>
+									<label class="modal-text" for="exampleInputEmail1">Email address</label>
 									    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 									<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 								</div>
@@ -149,49 +149,51 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-8">
+                                <div class="col-12 col-sm-6">
 								    <div class="form-group">
-									    <label for="address">Address</label>
+									    <label class="modal-text" for="address">Address</label>
 									    <input type="text" class="form-control" id="address" aria-label="insert first line of your address here">
 								    </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-12 col-sm-6">
 								    <div class="form-group">
-									    <label for="postcode">Postcode</label>
+									    <label class="modal-text" for="postcode">Postcode</label>
 									    <input type="text" class="form-control" id="postcode" aria-label="insert your post code here">
 								    </div>
                                 </div>
                             </div>
-                                
 
-
+                            
 								<div>
-									<p>Membership package</p>
-									<div class="btn-group btn-group-toggle" data-toggle="buttons">
-										<label class="btn btn-secondary active">
+									<p class="modal-text">Membership package</p>
+									<div data-toggle="buttons radio-group">
+										<label class="radio-button">
                                     <input type="radio" name="options" id="bronze" autocomplete="off" checked> Bronze
                                 </label>
-										<label class="btn btn-secondary">
+										<label class="radio-button">
                                     <input type="radio" name="options" id="silver" autocomplete="off"> Silver
                                 </label>
-										<label class="btn btn-secondary">
+										<label class="radio-button">
                                     <input type="radio" name="options" id="gold" autocomplete="off"> Gold
                                 </label>
 									</div>
 								</div>
 
 
-								<div>
-									<p>Gender</p>
-									<div class="btn-group btn-group-toggle" data-toggle="buttons">
-										<label class="btn btn-secondary active">
-                                    <input type="radio" name="options" id="male" autocomplete="off" checked> Male
+							<div class="radio-group">
+                                <label class="radio">
+                                    <input type="radio" value="male" name="gender">
+                                    Male
+                                    <span></span>
                                 </label>
-										<label class="btn btn-secondary">
-                                    <input type="radio" name="options" id="female" autocomplete="off"> Female
+                                <label class="radio">
+                                    <input type="radio" value="female" name="gender">
+                                    Female
+                                    <span></span>
                                 </label>
-									</div>
-								</div>
+                            </div>
+
+
 							</div>
 					</form>
 				</div>
