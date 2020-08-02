@@ -6,7 +6,7 @@
 /*------------------------------------------------------------------general*/
 
 .hori-center {
-    margin: auto;
+    margin:0 auto;
     
 }
 
@@ -79,6 +79,10 @@ body {
 
 .modal-bg-color {
     background-color: black;
+}
+
+.fm-div {
+    background-color:rgba(0, 0, 0, 0.8);
 }
 
 
@@ -471,13 +475,27 @@ input[type=text], input[type=email], select, textarea{
 
 
 .form-button {
-  background-color: #cf0000;
   height: 60px;
-  width: 110px;
-  color: #fafafa;
-  cursor: pointer;
-  margin-top: 20px;
-  margin-bottom: 30px;
+    width: 150px;
+    border: 2px solid #2e0000;
+    border-radius: 5px;
+    background-color: #520000;
+    color: #fafafa;
+    font-size: 20px;
+    margin-bottom: 3px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+    .form-button:hover {
+    background: #cf0000;
+}
+
+.form-button:focus {
+    outline:none;
+}
 }
 
 .fmbox {
@@ -573,13 +591,15 @@ iframe {
 
 /* ---------------------------------------------------------------membership form and modal styling */
 
+
+
 .modal {
-  text-align: center;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   padding: 0!important;
-  position: absolute;
-  vertical-align: middle;
+  margin: 0 auto;
+  width: 100%;
+  top: 0;
   
 }
 
@@ -684,8 +704,10 @@ body { padding-right: 0 !important }
     transform: translate(-50%,-50%) scale(2.2);
 }
 
-
-
+.modal-center{
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
 /*------------------------------------------------------------------footer*/
 
 footer {
@@ -888,5 +910,17 @@ body h1 {
     margin: auto;
 }
 
+.fm-div {
+    padding-left: 30px;
+}
+
+}
+
+@media (min-width: 576px) {
+    .radio {
+        display: inline;
+    }
+
+    
 }
 
