@@ -368,6 +368,10 @@ height: 100%;
     margin-top: 15px;
 }
 
+.about-equipment h2 {
+    font-size: 28px;
+}
+
 .about-pt {
     text-align: center;
     padding-bottom: 30px;
@@ -376,6 +380,10 @@ height: 100%;
 .about-pt p {
     text-align: center;
     margin-top: 15px;
+}
+
+.about-pt h2 {
+    font-size: 28px;
 }
 
 .about-comps {
@@ -388,10 +396,13 @@ height: 100%;
     margin-top: 15px;
 }
 
+.about-comps h2 {
+    font-size: 28px;
+}
+
 .about-images {
     background-color: rgba(0, 0, 0, 0.8);
     padding-top: 60px;
-    border-bottom: 1px solid #cf0000;
 }
 
 
@@ -717,6 +728,7 @@ footer {
     color: #fafafa;
     min-height: 45px;
     margin: 0;
+    border-top: 1px solid #cf0000;
 }
 
 
@@ -884,6 +896,25 @@ body p {
 body h1 {
     font-size: 36px;
 }
+
+
+.about-equipment h2 {
+    font-size: 30px;
+}
+
+.about-pt h2 {
+    font-size: 30px;
+}
+
+.about-comps h2 {
+    font-size: 30px;
+}
+
+.about-header {
+    margin-bottom: 20px;
+}
+
+
 
 
 }
