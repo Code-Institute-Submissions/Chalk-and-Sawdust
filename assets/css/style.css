@@ -26,7 +26,7 @@ body h1 {
 }
 
 body h2 {
-    font-size: 36px;
+    font-size: 30px;
     color: #fafafa;
 }
 
@@ -83,6 +83,14 @@ body {
 
 .fm-div {
     background-color:rgba(0, 0, 0, 0.8);
+}
+
+.trans-black-bg {
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+.black-bg {
+    background-color: black;
 }
 
 
@@ -235,6 +243,33 @@ body {
 
 .jumbo-button:focus {
     outline:none;
+}
+
+.index-divs {
+    text-align: center;
+    color: #fafafa;
+    font-size: 20px;
+    border: 1px solid #cf0000;
+}
+
+.index-divs ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 15px;
+}
+
+.index-divs ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.index-divs h2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.index-divs i {
+    font-size: 150px;
 }
 
 
@@ -914,6 +949,14 @@ body h1 {
     margin-bottom: 20px;
 }
 
+.index-divs {
+    font-size: 25px;
+}
+
+.index-divs i {
+    position: relative;
+    bottom: -30px;
+}
 
 
 
@@ -956,6 +999,9 @@ body h1 {
 
     
 }
+
+
+/*-------------------------------------------------------------- slider section */
 
 .slider-section {
     background-color: black;
