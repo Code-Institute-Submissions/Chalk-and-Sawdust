@@ -5,26 +5,26 @@
 
 /*------------------------------------------------------------------general*/
 
+/* --class for horizontal centering */
 .hori-center {
-    margin:0 auto;
-    
+    margin:0 auto;   
 }
-
+/* --sets the font */
 body {
     font-family: 'Lato', sans-serif;
 }
-
+/* --sets default text size and color for paragraphs */
 body p {
     font-size: 20px;
     color: #fafafa;
 }
-
+/* --sets default text size and color for h1 and center aligns */
 body h1 {
     font-size: 32px;
     color: #fafafa;
     text-align: center;
 }
-
+/* --sets default text size and color for h2 */
 body h2 {
     font-size: 30px;
     color: #fafafa;
@@ -32,80 +32,78 @@ body h2 {
 
 /*------------------------------------------------------------------colors*/
 
+/* --sets background color for the body */
 body {
     background-color: #520000;
 }
-
+/* --sets background color for the title bar */
 .bg-color-name {
     background-color: #000000;
 }
-
+/* --sets background color for the navbar */
 .navbar-bg-color {
     background-color: #520000;
 }
-
-
+/* --sets background color for the navbar home button */
 .ui-menu-color-home {
     background-color: #520000;
 }
-
+/* --sets background color for the navbar big 3 button */
 .ui-menu-color-big3 {
     background-color: #520000;
 }
-
+/* --sets background color for the navbar about button */
 .ui-menu-color-about {
     background-color: #520000;
 }
-
+/* --sets background color for the navbar contact button */
 .ui-menu-color-contact {
     background-color: #520000;
 }
-
+/* --sets background color for the navbar membership button */
 .ui-menu-color-membership {
     background-color: #520000;
 }
-
+/* --sets background color for squat div on the big 3 page */
 .squat-container {
     background-color: black;
 }
-
+/* --sets background color for benchpress div on the big 3 page */
 .benchpress-container {
     background-color: black;
 }
-
+/* --sets background color for deadlift div on the big 3 page */
 .deadlift-container {
     background-color: black;
 }
-
+/* --sets background color for membership modal */
 .modal-bg-color {
     background-color: black;
 }
-
+/* --sets background color for the div containing the contact form and map */
 .fm-div {
     background-color:rgba(0, 0, 0, 0.8);
 }
-
+/* --class to set 80% translucent black background color */
 .trans-black-bg {
     background-color:rgba(0, 0, 0, 0.8);
 }
-
+/* --class to set black background color */
 .black-bg {
     background-color: black;
 }
 
 
 /*------------------------------------------------------------------header*/
+/* --class to remove padding from the header bar */
 .header-bar {
     padding: 0;
 }
-
+/* --sets the height of the title bar logo*/
 .header-bar img {
     height: 100px;
 }
-
-
-
-
+/* --styling for the gym name in the title bar */
 .name {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
@@ -113,27 +111,22 @@ body {
     color: #fafafa;
     text-align: center;
     position: relative;
-    margin-top: 25px;
-       
+    margin-top: 25px;       
 }
-
+/* --this removes the margin from the final nav menu item on the drop down mobile version */
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
-
+/* --this centers the text on the navbar */
 .navcontainer {
     text-align: center;
 }
-
-.navlist {
-    font-size: 0;
-}
-
+/* --this sets the text size and removes padding for the nav bar buttons */
 #nav li {
     font-size: 14px;
     padding: 0;
 }
-
+/* --this sets the height width and animation for navbar buttons */
 .menuitem {
  width: 300px;
  height: 60px;
@@ -143,21 +136,14 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
+/* --this sets the color change hover action for the navbar buttons */
 .menuitem:hover {
     background: #cf0000;
 }
-
-
-
+/* --this sets the clickable area and general text styling for the navbar buttons */
 .menuitem a {
-    width: 100%;
     text-decoration: none;
     color: #fafafa;
-    height: 60x;
-}
-
-.menuitem a {
     display: block;
     height: 100%;
     width: 100%;
@@ -170,46 +156,43 @@ body {
     letter-spacing: 1px;
     margin-top: 5px;
 }
-
+/* --this removes the margin from the nav bar */
 #nav {
     margin: 0;
 }
 
 /*------------------------------------------------------------------index page*/
-
+/* --this sets the margin and padding for the jumbotron */
 .jumbo-container {
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 0;
 }
-
+/* --this removes the padding from the front page background image */
 .jumbo-mp{
     padding-left: 0;
     padding-right: 0;
 }
-
-
+/* --class for removing margins and padding from containers */
 .container-padding {
     padding: 0;
     margin: 0;
 }
-
+/* --this sets the background color, text color, font size and center text aligment for the jumbotron */
 .sign-up {
-    
     background: rgba(0, 0, 0, 0.8);
     color: #cf0000;
     text-align: center;
     font-size: 20px;
-    
 }
-
+/* --this sets the styling for the jumbotron "sign up today!" text */
 .sign-up h1 {
     padding-top: 10px;
     padding-bottom: 20px;
     font-size: 46px;
     color: #cf0000;
 }
-
+/* --this sets the styling for the jumbotron sign up button */
 .jumbo-button {
     background-color: #520000;
     border: 2px solid black;
@@ -221,53 +204,52 @@ body {
     cursor: pointer;
     box-shadow: 0 9px #2e0000;
 }
-
+/* --this sets the position of the jumbotron sign up button text */
 .jumbo-button span {
     position: relative;
     top: 10px;
 }
-
-
+/* --this sets the hover effect for the jumbotron button */
 .jumbo-button:hover {
     background-color: #cf0000;
     text-decoration: none;
     color: #fafafa;
 }
-
+/* --this removes the padding from the front page background image */
 .jumbo-button:active {
     box-shadow: 0 5px #2e0000;
     background-color: #cf0000;
     transform: translateY(5px);
     outline:none;
 }
-
+/* --this removes the outline from the jumbotron button */
 .jumbo-button:focus {
     outline:none;
 }
-
+/* --this sets the text styling and the border for the front page info divs */
 .index-divs {
     text-align: center;
     color: #fafafa;
     font-size: 20px;
     border: 1px solid #cf0000;
 }
-
+/* --this removes the bullet points and sets the padding for the front page info lists */
 .index-divs ul {
     list-style-type: none;
     padding-left: 0;
     padding-bottom: 15px;
 }
-
+/* --this sets the padding for the individual front page list items */
 .index-divs ul li {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+/* --this sets the padding for the front page info div headings */
 .index-divs h2 {
     padding-top: 30px;
     padding-bottom: 15px;
 }
-
+/* --this sets the size of the down arrow on the front page */
 .index-divs i {
     font-size: 150px;
 }
@@ -275,31 +257,30 @@ body {
 
 /*------------------------------------------------------------------the big 3 */
 
-
-
+/* --this sets the padding and the text align for the intro section */
 .intro {
     padding: 20px;
     text-align: center;
 }
-
+/* --this sets the background color for the intro section */
 .intro-box {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
+/* --this sets the padding and the text align for the squat section */
 .squat-container {
     padding: 25px;
     text-align: center;
     padding-bottom: 50px;
     
 }
-
+/* --this sets the padding and the text align for the benchpress section */
 .bench-container {
     padding: 25px;
     text-align: center;
     padding-bottom: 50px;
     background-color: rgba(0, 0, 0, 0.8);
 }
-
+/* --this sets the padding and the text align for the deadlift section */
 .deadlift-container {
     padding: 25px;
     text-align: center;
@@ -307,7 +288,7 @@ body {
     border-bottom: 2px solid #cf0000;
     
 }
-
+/* --this sets the size and position for the squat video container */
 .squat-video-container {
 position: relative;
 height: 0;
@@ -443,6 +424,7 @@ height: 100%;
 
 /*------------------------------------------------------------------background images*/
 
+/* ------------------this is the front page background image */
 .front-page-bg {
     background: url(../images/front-page.png);
     background-position: center;
