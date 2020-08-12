@@ -295,7 +295,7 @@ height: 0;
 width: 100%;
 padding-bottom: 56.25%; 
 }
-
+/* --this sets the size and position for the squat video */
 .squat-video {
 margin-top: 10px;
 position: absolute;
@@ -304,19 +304,19 @@ left: 0;
 width: 100%;
 height: 100%;  
 }
-
+/* --this sets the position for the squat video text */
 .squat-text {
     margin-top: 10px;
     top: 20px;
 }
-
+/* --this sets the size and position for the deadlift video container */
 .bench-video-container {
 position: relative;
 height: 0;
 width: 100%;
 padding-bottom: 56.25%; 
 }
-
+/* --this sets the size and position for the bench press video*/
 .bench-video {
 margin-top: 10px;
 position: absolute;
@@ -325,19 +325,19 @@ left: 0;
 width: 100%;
 height: 100%;
 }
-
+/* --this sets the position for the benchpress video text*/
 .bench-text {
     margin-top: 10px;
     top: 20px;
 }
-
+/* --this sets the size and position for the deadlift video container */
 .deadlift-video-container {
 position: relative;
 height: 0;
 width: 100%;
 padding-bottom: 56.25%; 
 }
-
+/* --this sets the size and position for the deadlift video */
 .deadlift-video {
 margin-top: 10px;
 position: absolute;
@@ -346,7 +346,7 @@ left: 0;
 width: 100%;
 height: 100%;
 }
-
+/* --this sets the position for the deadlift text */
 .deadlift-text {
     margin-top: 10px;
     top: 20px;
@@ -354,7 +354,7 @@ height: 100%;
 
 
 /*------------------------------------------------------------------about */
-
+/* --this sets the padding and the translucent black overlay for the intro section div */
 .about-box {
     background-color: rgba(0, 0, 0, 0.8);
     padding-top: 60px;
@@ -362,60 +362,60 @@ height: 100%;
     padding-left: 30px;
     padding-right: 30px;
 }
-
+/* --this sets the intro text paragraph to center align */
 .about-box p {
     text-align: center;
 }
-
+/* --this sets the translucent black background and the padding and text align for the benefits header */
 .benefits {
     background-color: rgba(0, 0, 0);
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
+/* --this sets the padding and text align for the equipment image header */
 .about-equipment {
     text-align: center;
     padding-bottom: 30px;
 }
-
+/* --this sets the margin and text align for the equipment image paragraph */
 .about-equipment p {
     text-align: center;
     margin-top: 15px;
 }
-
+/* --this sets the font size for the equipment image header */
 .about-equipment h2 {
     font-size: 28px;
 }
-
+/* --this sets the padding and text align for the personal training image header */
 .about-pt {
     text-align: center;
     padding-bottom: 30px;
 }
-
+/* --this sets the margin and text align for the personal training image paragraph */
 .about-pt p {
     text-align: center;
     margin-top: 15px;
 }
-
+/* --this sets the font size for the personal training image header */
 .about-pt h2 {
     font-size: 28px;
 }
-
+/* --this sets the padding and text align for the competition image header */
 .about-comps {
     text-align: center;
     padding-bottom: 30px;
 }
-
+/* --this sets the margin and text align for the competition image paragraph */
 .about-comps p {
     text-align: center;
     margin-top: 15px;
 }
-
+/* --this sets the font size for the competition image header */
 .about-comps h2 {
     font-size: 28px;
 }
-
+/* --this sets the padding and translucent black background for the container that houses the images and text*/
 .about-images {
     background-color: rgba(0, 0, 0, 0.8);
     padding-top: 60px;
@@ -424,7 +424,7 @@ height: 100%;
 
 /*------------------------------------------------------------------background images*/
 
-/* ------------------this is the front page background image */
+/* --this is the front page background image */
 .front-page-bg {
     background: url(../images/front-page.png);
     background-position: center;
@@ -432,7 +432,7 @@ height: 100%;
     background-size: cover;
     min-height: 620px;
 }
-
+/* --this is the default background covering the body of the page */
 body {
     background: url(../images/wall.png);
     background-position: center;
@@ -440,11 +440,11 @@ body {
     background-size: cover;
     height: auto;
 }
-
+/* --this sets the background color of the main section */
 .membership-bg-color{
     background-color: rgba(0, 0, 0, 0.8);
     }
-
+/* --this sets background image that the modal button is on top of */
 .membership-bg{
 background: url(../images/membership.jpg);
     background-position: center;
@@ -460,52 +460,46 @@ background: url(../images/membership.jpg);
 
 /*------------------------------------------------------------------contact*/
 
-
+/* --this sets the padding and background color of the div that contains the contact heading and text */
 .contact-div {
     padding-top: 20px;
     background-color: #520000;
 }
-
+/* --this sets the margin and text align for the text on the contact div */
 .contact-div p {
     text-align: center;
     margin-top: 15px;
 }
-
-.contact-headers {
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
+/* --this sets padding for the div that contains the form and the map */
 .fm-div {
     padding-top: 50px;
 }
-
+/* --this styles the text for the form labels */
 .form-name {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-  color: #cf0000;
-  font-size: 20px;
-  margin-bottom: 0;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: #cf0000;
+    font-size: 20px;
+    margin-bottom: 0;
 }
-
+/* --this styles the form inputs */
 input[type=text], input[type=email], select, textarea{
-  padding: 10px;
-  width: 100%;
-  border-radius: 8px;
-  border: 2px solid #cf0000;
-  box-sizing: border-box;
-  resize: vertical;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #cf0000;
+    box-sizing: border-box;
+    resize: vertical;
 }
-
+/* --this sets the position of the form button div */
 .fbutton-div {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
 }
-
-
+/* --this sets the margin and text align for the text on the contact div */
 .form-button {
-  height: 60px;
+    height: 60px;
     width: 150px;
     border: 2px solid #2e0000;
     border-radius: 5px;
@@ -518,30 +512,30 @@ input[type=text], input[type=email], select, textarea{
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
-    .form-button:hover {
+/* --this sets the color change for the form button on hover */
+.form-button:hover {
     background: #cf0000;
 }
-
+/* --this removes the focus outline for the form button */
 .form-button:focus {
     outline:none;
 }
-}
-
+/* --this sets the translucent black background for the div containing the form and map */
 .fmbox {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
+/* --this sets the height for the form comment box */
 .comment-box {
     height: 150px;
 }
-
+/* --this styles the responsive map */
 .map-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
 }
+/* --this sets size and position of the map */
 .map-responsive iframe{
     left:0;
     top:0;
@@ -549,50 +543,50 @@ input[type=text], input[type=email], select, textarea{
     width:100%;
     position:absolute;
 }
-
+/* --this sets the margins for the div containing the map */
 .map-div {
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 15px;
     margin-bottom: 30px;
 }
-
+/* --this sets max height of the map */
 iframe {
     max-height: 500px;
 }
 
 
 /*------------------------------------------------------------------membership*/
-
+/* --this sets translucent black background, text align and margin for the membership options div */
 .membership-options {
     text-align: center;
     margin-top: 120px;
     background-color: rgba(0, 0, 0, 0.8);
 }
-
+/* --this styles the heading for membership options */
 .membership-options h1 {
     color: #cf0000;
     margin-bottom: 30px;
     padding-top: 20px;
 }
-
+/* --this removes the bullet points and sets padding and margin for the membership options list */
 .membership-options ul {
     list-style-type: none;
     padding: 0;
     margin-top: 30px;
 }
-
+/* --this sets the font size and color for the membership options list */
 .membership-options li {
     font-size: 20px;
     color: #fafafa;
 }
-
+/* --this sets the position of the sign up button */
 .signup-div {
     text-align: center;
     margin: 0;
     padding: 0;
 }
-
+/* --this styles the sign up button */
 .signup-btn {
     height: 60px;
     width: 150px;
@@ -607,11 +601,11 @@ iframe {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
+/* --this changes the color of the sign up button on hover */
 .signup-btn:hover {
     background: #cf0000;
 }
-
+/* --this removes the focus outline from the sign up button */
 .signup-btn:focus {
     outline:none;
 }
@@ -621,8 +615,7 @@ iframe {
 
 /* ---------------------------------------------------------------membership form and modal styling */
 
-
-
+/* --this styles the modal and sets the font */
 .modal {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
@@ -632,60 +625,50 @@ iframe {
   top: 0;
   
 }
-
+/* --this styles the modal text */
 .modal-text{
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     color: #fafafa;
 }
-
-.modal-color {
-    color: black;
-}
-
-.modal-text {
-    text-align: center;
-    font-size: 20px;
-}
-
+/* --this sets the text color for the modal header */
 .modal-header h2 {
     color: #cf0000;
-    
 }
-
-body { padding-right: 0 !important }
-
-
+/* --this removes the padding from the right of the body */
+body { 
+    padding-right: 0 !important
+}
+/* --this removes the padding from the right of the modal */
 #membership-modal {
     padding-right: 0 !important;
 }
-
+/* --this sets the border and background color for the modal header */
 .modal-header{
     background-color: black;
     border: 3px solid #520000;
 }
-
+/* --this sets the border and background color for the modal body */
 .modal-body{
     background-color: black;
     border: 3px solid #520000;
 }
-
+/* --this sets the border and background color for the modal footer */
 .modal-footer{
     background-color: black;
     border: 3px solid #520000;
 }
-
+/* --this sets the margins for the form groups*/
 .form-group{
     margin-top: 15px;
     margin-bottom: 0px;
 }
-
+/* --this sets margin for the radio button groups */
 .radio-group{
     margin-top: 20px;
 }
-
-
+/* --this styles the text and position of the radio button groups */
 .radio{
     position: relative;
     font-size: 18px;
@@ -696,15 +679,15 @@ body { padding-right: 0 !important }
     cursor: pointer;
     display: block;
 }
-
+/* --left margin for the radio groups */
 .radio + .radio{
     margin-left: 20px;
 }
-
+/* --hides the default radio button */
 .radio input[type="radio"]{
     display: none;
 }
-
+/* --styling for custom radio button */
 .radio span{
     display: block;
     height: 20px;
@@ -715,7 +698,7 @@ body { padding-right: 0 !important }
     left: 0;
     top: 7px;
 }
-
+/* --styling for custom radio button after click */
 .radio span:after{
     content: "";
     height: 8px;
@@ -729,17 +712,13 @@ body { padding-right: 0 !important }
     border-radius: 50%;
     transition: 300ms ease-in-out 0s;
 }
-
+/* --animation for radio button */
 .radio input[type="radio"]:checked ~ span:after{
     transform: translate(-50%,-50%) scale(2.2);
 }
 
-.modal-center{
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-}
 /*------------------------------------------------------------------footer*/
-
+/* --this styles the footer */
 footer {
     background-color: #000000;
     color: #fafafa;
@@ -747,14 +726,14 @@ footer {
     margin: 0;
     border-top: 1px solid #cf0000;
 }
-
-
+/* --this sets the position of the social links */
 .social-links {
     padding-top: 20px;
+    padding-bottom: 5px;
     text-align: center;
     word-spacing: 50px;
 }
-
+/* --this styles the social links */
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -770,19 +749,14 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
+/* --this sets the color change on hover for the social links */
 .social-links li a i:hover {
     background: #cf0000;
 }
 
-
-#footer-details {
-    padding: 20px;
-}
-
-
 /*------------------------------------------------------------------responsive*/
 
+/* --this styles the navbar burger button and hides it */
 .label-nav {
     display: none;
     margin: 0 40px 0 0;
@@ -792,54 +766,54 @@ footer {
     color: #202020;
        
 }
-
+/* --this hides the nav bar burger button toggle */
 #toggle {
     display: none;
 }
 
 
 
-
+/* --media query for below 1050px */
 @media only screen and (max-width: 1050px) {
 
+/* --this changes the header bar to a simplified version with a gradient */
 .header-bar {
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 29%, rgba(170,21,21,1) 89%, rgba(255,0,0,1) 100%);
 }
-
+/* --this hides the logo */
 .logo {
     display: none;
 }
-
+/* --this adjusts the position of the gym name*/
 .name{
     margin-top: 15px;
     margin-bottom: 10px;
     margin-left: 40px;
     max-width: 80%;
 }
-
-
+/* --this adds a border to the top and bottom of the main background picture on the index page*/
 .front-page-bg {
     border-top: solid 1px #cf0000;
     border-bottom: solid 1px #cf0000;
 }
-
+/* --this removes the margins for the navbar*/
 .navcontainer{
     margin: 0;
 } 
-
+/* --this reveals the navbar burger button*/
 .label-nav {
     display: block;
     cursor: pointer;
     margin-top: 10px;
     margin-right: 0;
 } 
-
+/* this hides the navbar */
 .menu {
     text-align: center;
     display: none;
 }
-
+/* --this overwrites the original styling for the navbar buttons*/
 .menu li {
     display: block;
     margin: 0;
@@ -851,90 +825,93 @@ footer {
     min-width: 200px;
     
 }
-
+/* --this sets the background color for the navbar home button */
 .ui-menu-color-home {
     background-color: black;
 }
-
+/* --this sets the background color for the navbar big 3 button */
 .ui-menu-color-big3 {
     background-color: black;
 }
-
+/* --this sets the background color for the navbar about button */
 .ui-menu-color-about {
     background-color: black;
 }
-
+/* --this sets the background color for the navbar contact button */
 .ui-menu-color-contact {
     background-color: black;
 }
-
+/* --this sets the background color for the navbar membership button */
 .ui-menu-color-membership {
     background-color: black;
 }
-
+/* --this brings the div containing the burger button to the top of the z index */
 #dropdown {
     position: absolute;
     z-index: 99;
 }
-
+/* --this sets the menu to display vertically when the burger button is clicked */
 #toggle:checked + .menu {
     display: block;
 }
 
 }
 
+/* --media query for screens above 1150px */
 @media only screen and (min-width: 1150px) {
 
+/* --this sets the padding underneath the map */
 .map-responsive {
     padding-bottom: 35%;
 }
 }
 
+/* --media query for screens above 925px */
 @media only screen and (min-width: 925px) {
 
+/* --changes the font size for the jumbotron */
 .sign-up {
     font-size: 26px;
     
 }
-
+/* --this changes the header font size for the jumbotron */
 .sign-up h1 {
     font-size: 55px;
 }
-
+/* --this changes the size of the jumbotron button */
 .jumbo-button {
     height: 65px;
     width: 155px;
 }
-
+/* --this changes the font size for the body p text */
 body p {
     font-size: 25px;
 }
-
+/* --this changes the font size for the body h1 text */
 body h1 {
     font-size: 36px;
 }
-
-
+/* --this changes the font size for the header for equipment on the about page */
 .about-equipment h2 {
     font-size: 30px;
 }
-
+/* --this changes the font size for the header for personal training on the about page */
 .about-pt h2 {
     font-size: 30px;
 }
-
+/* --this changes the font size for the header for competitions on the about page */
 .about-comps h2 {
     font-size: 30px;
 }
-
+/* --this changes the margin for the headers on the about page */
 .about-header {
     margin-bottom: 20px;
 }
-
+/* --this changes the font size for the divs containing info on the index page */
 .index-divs {
     font-size: 25px;
 }
-
+/* --this changes the position of the arrow on the index page */
 .index-divs i {
     position: relative;
     bottom: -30px;
@@ -944,40 +921,44 @@ body h1 {
 
 }
 
+/* --media query for screens above 768px */
 @media only screen and (min-width: 768px) {
 
-    
+/* --this changes the padding for the text next to the squat video */    
 .squat-text {
     padding-top: 8%;
 }
-
+/* --this changes the padding for the text next to the benchpress video */
 .bench-text {
     padding-top: 8%;
 }
-
+/* --this changes the padding for the text next to the deadlift video */
 .deadlift-text {
     padding-top: 8%;
 }
-
+/* --this centers and sets the max width for the intro on the big 3 page */
 .intro{
     max-width: 75%;
     margin: auto;
 }
-
+/* --this sets the margin for the div containing the map */
 .map-div {
     margin: auto;
 }
-
+/* --this sets the left padding for the div containing the map and form*/
 .fm-div {
     padding-left: 30px;
 }
 
 }
 
+/* --media query for screens above 576px */
 @media (min-width: 576px) {
-    .radio {
-        display: inline;
-    }
+    
+/* --this sets the radio buttons to display horizontally */   
+.radio {
+    display: inline;
+}
 
     
 }
@@ -985,19 +966,20 @@ body h1 {
 
 /*-------------------------------------------------------------- slider section */
 
+/* --this sets the slider section background color */
 .slider-section {
     background-color: black;
 }
-
+/* --this sets the max width for the slider */
 .slider-container {
     max-width: 800px;
     margin: 0 auto;
 }
-
+/* --this hides the slider overflow */
 #slider {
     overflow: hidden;
 }
-
+/* --this styles the slider and sets the animation */
 #slider figure {
     position: relative;
     width: 500%;
@@ -1006,12 +988,12 @@ body h1 {
     animation: 20s slider infinite;
     height: 200px;
 }
-
+/* --this sets the width of the slider images as an equal percentage of the total number of images used */
 #slider figure img {
     width: 20%;
     float: left;
 }
-
+/* --this sets the timing for the slider animation */
 @keyframes slider {
     0% {
         left: 0;
