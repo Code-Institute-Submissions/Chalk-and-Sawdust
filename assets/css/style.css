@@ -354,9 +354,12 @@ height: 100%;
 
 
 /*------------------------------------------------------------------about */
-/* --this sets the padding and the translucent black overlay for the intro section div */
-.about-box {
+/* --sets translucent black background for about page intro */
+.about-bg {
     background-color: rgba(0, 0, 0, 0.8);
+}
+/* --this sets the padding for the intro section div */
+.about-box {
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 30px;
@@ -869,6 +872,10 @@ footer {
 /* --media query for screens above 925px */
 @media only screen and (min-width: 925px) {
 
+/* --changes the max width to 75% for the about page intro */
+.about-box {
+    max-width: 75%;
+}
 /* --changes the font size for the jumbotron */
 .sign-up {
     font-size: 26px;
