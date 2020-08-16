@@ -13,22 +13,33 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+/* --fonts */
 /* --sets default text size and color for paragraphs */
 body p {
-    font-size: 20px;
+    font-size: 1.4em;
     color: #fafafa;
 }
 /* --sets default text size and color for h1 and center aligns */
 body h1 {
-    font-size: 32px;
+    font-size: 2.2em;
     color: #fafafa;
     text-align: center;
 }
 /* --sets default text size and color for h2 */
-body h2 {
-    font-size: 30px;
+body h2, .label-nav {
+    font-size: 2em;
     color: #fafafa;
 }
+
+a, span, button {
+    font-size: 1.2em;
+}
+
+
+input, label, .list-fs {
+    font-size: 1.4em;
+}
+
 
 /*------------------------------------------------------------------colors*/
 
@@ -107,7 +118,6 @@ body {
 .name {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 40px;
     color: #fafafa;
     text-align: center;
     position: relative;
@@ -123,7 +133,6 @@ body {
 }
 /* --this sets the text size and removes padding for the nav bar buttons */
 #nav li {
-    font-size: 14px;
     padding: 0;
 }
 /* --this sets the height width and animation for navbar buttons */
@@ -150,7 +159,6 @@ body {
     text-align: center;
     padding-top: 10px;
     text-transform: uppercase;
-    font-size: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
@@ -183,13 +191,11 @@ body {
     background: rgba(0, 0, 0, 0.8);
     color: #cf0000;
     text-align: center;
-    font-size: 20px;
 }
 /* --this sets the styling for the jumbotron "sign up today!" text */
 .sign-up h1 {
     padding-top: 10px;
     padding-bottom: 20px;
-    font-size: 46px;
     color: #cf0000;
 }
 /* --this sets the styling for the jumbotron sign up button */
@@ -198,8 +204,8 @@ body {
     border: 2px solid black;
     border-radius: 10px;
     color: #fafafa;
-    height: 50px;
-    width: 125px;
+    height: 65px;
+    width: 155px;
     margin-top: 20px;
     cursor: pointer;
     box-shadow: 0 9px #2e0000;
@@ -230,7 +236,6 @@ body {
 .index-divs {
     text-align: center;
     color: #fafafa;
-    font-size: 20px;
     border: 1px solid #cf0000;
 }
 /* --this removes the bullet points and sets the padding for the front page info lists */
@@ -386,10 +391,6 @@ height: 100%;
     text-align: center;
     margin-top: 15px;
 }
-/* --this sets the font size for the equipment image header */
-.about-equipment h2 {
-    font-size: 28px;
-}
 /* --this sets the padding and text align for the personal training image header */
 .about-pt {
     text-align: center;
@@ -400,10 +401,6 @@ height: 100%;
     text-align: center;
     margin-top: 15px;
 }
-/* --this sets the font size for the personal training image header */
-.about-pt h2 {
-    font-size: 28px;
-}
 /* --this sets the padding and text align for the competition image header */
 .about-comps {
     text-align: center;
@@ -413,10 +410,6 @@ height: 100%;
 .about-comps p {
     text-align: center;
     margin-top: 15px;
-}
-/* --this sets the font size for the competition image header */
-.about-comps h2 {
-    font-size: 28px;
 }
 /* --this sets the padding and translucent black background for the container that houses the images and text*/
 .about-images {
@@ -482,7 +475,6 @@ background: url(../images/membership.jpg);
     padding: 12px 12px 12px 0;
     display: inline-block;
     color: #cf0000;
-    font-size: 20px;
     margin-bottom: 0;
 }
 /* --this styles the form inputs */
@@ -508,7 +500,6 @@ input[type=text], input[type=email], select, textarea{
     border-radius: 5px;
     background-color: #520000;
     color: #fafafa;
-    font-size: 20px;
     margin-bottom: 3px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -580,7 +571,6 @@ iframe {
 }
 /* --this sets the font size and color for the membership options list */
 .membership-options li {
-    font-size: 20px;
     color: #fafafa;
 }
 /* --this sets the position of the sign up button */
@@ -597,7 +587,6 @@ iframe {
     border-radius: 5px;
     background-color: #520000;
     color: #fafafa;
-    font-size: 20px;
     margin-top: 40px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -621,7 +610,6 @@ iframe {
 /* --this styles the modal and sets the font */
 .modal {
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
   padding: 0!important;
   margin: 0 auto;
   width: 100%;
@@ -632,7 +620,6 @@ iframe {
 .modal-text{
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
     color: #fafafa;
 }
 /* --this sets the text color for the modal header */
@@ -674,7 +661,6 @@ body {
 /* --this styles the text and position of the radio button groups */
 .radio{
     position: relative;
-    font-size: 18px;
     font-family: 'Lato', sans-serif;
     color: #fafafa;
     margin-left: 20px;
@@ -742,7 +728,6 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 25%;
-    font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: #000000;
@@ -763,7 +748,6 @@ footer {
 .label-nav {
     display: none;
     margin: 0 40px 0 0;
-    font-size: 35px;
     text-align: center;
     float: right;
     color: #202020;
@@ -792,7 +776,7 @@ footer {
 .name{
     margin-top: 15px;
     margin-bottom: 10px;
-    margin-left: 40px;
+    margin-left: 30px;
     max-width: 80%;
 }
 /* --this adds a border to the top and bottom of the main background picture on the index page*/
@@ -876,47 +860,14 @@ footer {
 .about-box {
     max-width: 75%;
 }
-/* --changes the font size for the jumbotron */
-.sign-up {
-    font-size: 26px;
-    
-}
-/* --this changes the header font size for the jumbotron */
-.sign-up h1 {
-    font-size: 55px;
-}
 /* --this changes the size of the jumbotron button */
 .jumbo-button {
     height: 65px;
     width: 155px;
 }
-/* --this changes the font size for the body p text */
-body p {
-    font-size: 25px;
-}
-/* --this changes the font size for the body h1 text */
-body h1 {
-    font-size: 36px;
-}
-/* --this changes the font size for the header for equipment on the about page */
-.about-equipment h2 {
-    font-size: 30px;
-}
-/* --this changes the font size for the header for personal training on the about page */
-.about-pt h2 {
-    font-size: 30px;
-}
-/* --this changes the font size for the header for competitions on the about page */
-.about-comps h2 {
-    font-size: 30px;
-}
 /* --this changes the margin for the headers on the about page */
 .about-header {
     margin-bottom: 20px;
-}
-/* --this changes the font size for the divs containing info on the index page */
-.index-divs {
-    font-size: 25px;
 }
 /* --this changes the position of the arrow on the index page */
 .index-divs i {
