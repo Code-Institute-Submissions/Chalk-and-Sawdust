@@ -1,992 +1,868 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
-
-
-
 /*------------------------------------------------------------------general*/
-
 /* --class for horizontal centering */
 .hori-center {
-    margin:0 auto;   
-}
-/* --sets the font */
-body {
-    font-family: 'Lato', sans-serif;
+margin: 0 auto;
 }
 /* --fonts */
-/* --sets default text size and color for paragraphs */
+body {
+font-family: 'Lato', sans-serif;
+}
 body p {
-    font-size: 1.4em;
-    color: #fafafa;
+font-size: 1.4em;
+color: #fafafa;
 }
-/* --sets default text size and color for h1 and center aligns */
 body h1 {
-    font-size: 2.2em;
-    color: #fafafa;
-    text-align: center;
+font-size: 2.2em;
+color: #fafafa;
 }
-/* --sets default text size and color for h2 */
-body h2, .label-nav {
-    font-size: 2em;
-    color: #fafafa;
+body h2,
+.label-nav {
+font-size: 2em;
+color: #fafafa;
 }
-
-a, span, button {
-    font-size: 1.2em;
+a,
+span,
+button {
+font-size: 1.2em;
 }
-
-
-input, label, .list-fs {
-    font-size: 1.4em;
+input,
+label,
+.list-fs {
+font-size: 1.4em;
 }
-
-
 /*------------------------------------------------------------------colors*/
-
 /* --sets background color for the body */
 body {
-    background-color: #520000;
+background-color: #520000;
 }
-/* --sets background color for the title bar */
-.bg-color-name {
-    background-color: #000000;
+/* --black backgrounds */
+.bg-color-name,
+.modal-bg-color,
+.black-bg,
+.slider-section,
+.modal-header,
+.modal-body,
+footer {
+background-color: #000000;
 }
 /* --sets background color for the navbar */
-.navbar-bg-color {
-    background-color: #520000;
-}
-/* --sets background color for the navbar home button */
-.ui-menu-color-home {
-    background-color: #520000;
-}
-/* --sets background color for the navbar big 3 button */
-.ui-menu-color-big3 {
-    background-color: #520000;
-}
-/* --sets background color for the navbar about button */
-.ui-menu-color-about {
-    background-color: #520000;
-}
-/* --sets background color for the navbar contact button */
-.ui-menu-color-contact {
-    background-color: #520000;
-}
-/* --sets background color for the navbar membership button */
+.navbar-bg-color,
+.ui-menu-color-home,
+.ui-menu-color-big3,
+.ui-menu-color-about,
+.ui-menu-color-contact,
+.ui-menu-color-contact,
 .ui-menu-color-membership {
-    background-color: #520000;
+background-color: #520000;
 }
-/* --sets background color for squat div on the big 3 page */
-.squat-container {
-    background-color: black;
-}
-/* --sets background color for benchpress div on the big 3 page */
-.benchpress-container {
-    background-color: black;
-}
-/* --sets background color for deadlift div on the big 3 page */
+/* --sets background color for squat, benchpress and deadlift divs on the big 3 page */
+.squat-container,
+.benchpress-container,
 .deadlift-container {
-    background-color: black;
+background-color: #000000;
 }
-/* --sets background color for membership modal */
-.modal-bg-color {
-    background-color: black;
-}
-/* --sets background color for the div containing the contact form and map */
+/* --80% translucent black background color */
+.trans-black-bg,
 .fm-div {
-    background-color:rgba(0, 0, 0, 0.8);
+background-color: rgba(0, 0, 0, 0.8);
 }
-/* --class to set 80% translucent black background color */
-.trans-black-bg {
-    background-color:rgba(0, 0, 0, 0.8);
+/* --hover colors */
+.menuitem:hover,
+.jumbo-button:hover,
+.form-button:hover,
+.signup-btn:hover,
+.social-links li a i:hover {
+background: #cf0000;
 }
-/* --class to set black background color */
-.black-bg {
-    background-color: black;
-}
-
-
 /*------------------------------------------------------------------header*/
 /* --class to remove padding from the header bar */
 .header-bar {
-    padding: 0;
+padding: 0;
 }
 /* --sets the height of the title bar logo*/
 .header-bar img {
-    height: 100px;
+height: 100px;
 }
 /* --styling for the gym name in the title bar */
 .name {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    color: #fafafa;
-    text-align: center;
-    position: relative;
-    margin-top: 25px;       
+font-family: 'Oswald', sans-serif;
+font-weight: 700;
+color: #fafafa;
+text-align: center;
+position: relative;
+margin-top: 25px;
 }
 /* --this removes the margin from the final nav menu item on the drop down mobile version */
 .list-inline-item:not(:last-child) {
-    margin: 0;
+margin: 0;
 }
 /* --this centers the text on the navbar */
 .navcontainer {
-    text-align: center;
+text-align: center;
 }
 /* --this sets the text size and removes padding for the nav bar buttons */
 #nav li {
-    padding: 0;
+padding: 0;
 }
 /* --this sets the height width and animation for navbar buttons */
 .menuitem {
- width: 300px;
- height: 60px;
- text-align: center;
- transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-/* --this sets the color change hover action for the navbar buttons */
-.menuitem:hover {
-    background: #cf0000;
+width: 300px;
+height: 60px;
+text-align: center;
+transition: all 0.35s ease-in-out;
+-moz-transition: all 0.35s ease-in-out;
+-webkit-transition: all 0.35s ease-in-out;
+-o-transition: all 0.35s ease-in-out;
 }
 /* --this sets the clickable area and general text styling for the navbar buttons */
 .menuitem a {
-    text-decoration: none;
-    color: #fafafa;
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
-    text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
-    margin-top: 5px;
+text-decoration: none;
+color: #fafafa;
+display: block;
+height: 100%;
+width: 100%;
+text-align: center;
+padding-top: 10px;
+text-transform: uppercase;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+letter-spacing: 1px;
+margin-top: 5px;
 }
 /* --this removes the margin from the nav bar */
 #nav {
-    margin: 0;
+margin: 0;
 }
-
 /*------------------------------------------------------------------index page*/
 /* --this sets the margin and padding for the jumbotron */
 .jumbo-container {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 0;
+margin-top: 100px;
+margin-bottom: 100px;
+padding: 0;
 }
 /* --this removes the padding from the front page background image */
-.jumbo-mp{
-    padding-left: 0;
-    padding-right: 0;
+.jumbo-mp {
+padding-left: 0;
+padding-right: 0;
 }
 /* --class for removing margins and padding from containers */
 .container-padding {
-    padding: 0;
-    margin: 0;
+padding: 0;
+margin: 0;
 }
 /* --this sets the background color, text color, font size and center text aligment for the jumbotron */
 .sign-up {
-    background: rgba(0, 0, 0, 0.8);
-    color: #cf0000;
-    text-align: center;
+background: rgba(0, 0, 0, 0.8);
+color: #cf0000;
+text-align: center;
 }
 /* --this sets the styling for the jumbotron "sign up today!" text */
-.sign-up h1 {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    color: #cf0000;
+.sign-up h2 {
+padding-top: 10px;
+padding-bottom: 20px;
+color: #cf0000;
+font-size: 3em;
 }
 /* --this sets the styling for the jumbotron sign up button */
 .jumbo-button {
-    background-color: #520000;
-    border: 2px solid black;
-    border-radius: 10px;
-    color: #fafafa;
-    height: 65px;
-    width: 155px;
-    margin-top: 20px;
-    cursor: pointer;
-    box-shadow: 0 9px #2e0000;
+background-color: #520000;
+border: 2px solid black;
+border-radius: 10px;
+color: #fafafa;
+height: 60px;
+width: 125px;
+margin-top: 20px;
+cursor: pointer;
+box-shadow: 0 9px #2e0000;
 }
 /* --this sets the position of the jumbotron sign up button text */
 .jumbo-button span {
-    position: relative;
-    top: 10px;
+position: relative;
+top: 10px;
 }
 /* --this sets the hover effect for the jumbotron button */
 .jumbo-button:hover {
-    background-color: #cf0000;
-    text-decoration: none;
-    color: #fafafa;
+text-decoration: none;
+color: #fafafa;
 }
 /* --this removes the padding from the front page background image */
 .jumbo-button:active {
-    box-shadow: 0 5px #2e0000;
-    background-color: #cf0000;
-    transform: translateY(5px);
-    outline:none;
+box-shadow: 0 5px #2e0000;
+background-color: #cf0000;
+transform: translateY(5px);
+outline: none;
 }
 /* --this removes the outline from the jumbotron button */
 .jumbo-button:focus {
-    outline:none;
+outline: none;
 }
 /* --this sets the text styling and the border for the front page info divs */
 .index-divs {
-    text-align: center;
-    color: #fafafa;
-    border: 1px solid #cf0000;
+text-align: center;
+color: #fafafa;
+border: 1px solid #cf0000;
 }
 /* --this removes the bullet points and sets the padding for the front page info lists */
 .index-divs ul {
-    list-style-type: none;
-    padding-left: 0;
-    padding-bottom: 15px;
+list-style-type: none;
+padding-left: 0;
+padding-bottom: 15px;
 }
 /* --this sets the padding for the individual front page list items */
 .index-divs ul li {
-    padding-top: 10px;
-    padding-bottom: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 /* --this sets the padding for the front page info div headings */
 .index-divs h2 {
-    padding-top: 30px;
-    padding-bottom: 15px;
+padding-top: 30px;
+padding-bottom: 15px;
 }
 /* --this sets the size of the down arrow on the front page */
 .index-divs i {
-    font-size: 150px;
+font-size: 150px;
 }
-
-
 /*------------------------------------------------------------------the big 3 */
-
 /* --this sets the padding and the text align for the intro section */
 .intro {
-    padding: 20px;
-    text-align: center;
+padding: 20px;
+text-align: center;
 }
 /* --this sets the background color for the intro section */
 .intro-box {
-    background-color: rgba(0, 0, 0, 0.8);
+background-color: rgba(0, 0, 0, 0.8);
 }
 /* --this sets the padding and the text align for the squat section */
 .squat-container {
-    padding: 25px;
-    text-align: center;
-    padding-bottom: 50px;
-    
+padding: 25px;
+text-align: center;
+padding-bottom: 50px;
 }
 /* --this sets the padding and the text align for the benchpress section */
 .bench-container {
-    padding: 25px;
-    text-align: center;
-    padding-bottom: 50px;
-    background-color: rgba(0, 0, 0, 0.8);
+padding: 25px;
+text-align: center;
+padding-bottom: 50px;
+background-color: rgba(0, 0, 0, 0.8);
 }
 /* --this sets the padding and the text align for the deadlift section */
 .deadlift-container {
-    padding: 25px;
-    text-align: center;
-    padding-bottom: 50px;
-    border-bottom: 2px solid #cf0000;
-    
+padding: 25px;
+text-align: center;
+padding-bottom: 50px;
+border-bottom: 2px solid #cf0000;
 }
 /* --this sets the size and position for the squat video container */
 .squat-video-container {
 position: relative;
 height: 0;
 width: 100%;
-padding-bottom: 56.25%; 
+padding-bottom: 56.25%;
 }
 /* --this sets the size and position for the squat video */
 .squat-video {
 margin-top: 10px;
 position: absolute;
-top:0;
+top: 0;
 left: 0;
 width: 100%;
-height: 100%;  
+height: 100%;
 }
 /* --this sets the position for the squat video text */
 .squat-text {
-    margin-top: 10px;
-    top: 20px;
+margin-top: 10px;
+top: 20px;
 }
 /* --this sets the size and position for the deadlift video container */
 .bench-video-container {
 position: relative;
 height: 0;
 width: 100%;
-padding-bottom: 56.25%; 
+padding-bottom: 56.25%;
 }
 /* --this sets the size and position for the bench press video*/
 .bench-video {
 margin-top: 10px;
 position: absolute;
-top:0;
+top: 0;
 left: 0;
 width: 100%;
 height: 100%;
 }
 /* --this sets the position for the benchpress video text*/
 .bench-text {
-    margin-top: 10px;
-    top: 20px;
+margin-top: 10px;
+top: 20px;
 }
 /* --this sets the size and position for the deadlift video container */
 .deadlift-video-container {
 position: relative;
 height: 0;
 width: 100%;
-padding-bottom: 56.25%; 
+padding-bottom: 56.25%;
 }
 /* --this sets the size and position for the deadlift video */
 .deadlift-video {
 margin-top: 10px;
 position: absolute;
-top:0;
+top: 0;
 left: 0;
 width: 100%;
 height: 100%;
 }
 /* --this sets the position for the deadlift text */
 .deadlift-text {
-    margin-top: 10px;
-    top: 20px;
+margin-top: 10px;
+top: 20px;
 }
-
-
 /*------------------------------------------------------------------about */
 /* --sets translucent black background for about page intro */
 .about-bg {
-    background-color: rgba(0, 0, 0, 0.8);
+background-color: rgba(0, 0, 0, 0.8);
 }
 /* --this sets the padding for the intro section div */
 .about-box {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 30px;
-    padding-right: 30px;
+padding-top: 60px;
+padding-bottom: 60px;
+padding-left: 30px;
+padding-right: 30px;
 }
 /* --this sets the intro text paragraph to center align */
 .about-box p {
-    text-align: center;
+text-align: center;
 }
 /* --this sets the translucent black background and the padding and text align for the benefits header */
 .benefits {
-    background-color: rgba(0, 0, 0);
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+background-color: rgba(0, 0, 0);
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
 }
 /* --this sets the padding and text align for the equipment image header */
 .about-equipment {
-    text-align: center;
-    padding-bottom: 30px;
+text-align: center;
+padding-bottom: 30px;
 }
 /* --this sets the margin and text align for the equipment image paragraph */
 .about-equipment p {
-    text-align: center;
-    margin-top: 15px;
+text-align: center;
+margin-top: 15px;
 }
 /* --this sets the padding and text align for the personal training image header */
 .about-pt {
-    text-align: center;
-    padding-bottom: 30px;
+text-align: center;
+padding-bottom: 30px;
 }
 /* --this sets the margin and text align for the personal training image paragraph */
 .about-pt p {
-    text-align: center;
-    margin-top: 15px;
+text-align: center;
+margin-top: 15px;
 }
 /* --this sets the padding and text align for the competition image header */
 .about-comps {
-    text-align: center;
-    padding-bottom: 30px;
+text-align: center;
+padding-bottom: 30px;
 }
 /* --this sets the margin and text align for the competition image paragraph */
 .about-comps p {
-    text-align: center;
-    margin-top: 15px;
+text-align: center;
+margin-top: 15px;
 }
 /* --this sets the padding and translucent black background for the container that houses the images and text*/
 .about-images {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding-top: 60px;
+background-color: rgba(0, 0, 0, 0.8);
+padding-top: 60px;
 }
-
-
 /*------------------------------------------------------------------background images*/
-
 /* --this is the front page background image */
 .front-page-bg {
-    background: url(../images/front-page.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 620px;
+background: url(../images/front-page.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 620px;
 }
 /* --this is the default background covering the body of the page */
 body {
-    background: url(../images/wall.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
+background: url(../images/wall.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: auto;
 }
 /* --this sets the background color of the main section */
-.membership-bg-color{
-    background-color: rgba(0, 0, 0, 0.8);
-    }
-/* --this sets background image that the modal button is on top of */
-.membership-bg{
-background: url(../images/membership.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 650px;
-    max-width: 100%;
-
+.membership-bg-color {
+background-color: rgba(0, 0, 0, 0.8);
 }
-
-
-
-
+/* --this sets background image that the modal button is on top of */
+.membership-bg {
+background: url(../images/membership.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 650px;
+max-width: 100%;
+}
 /*------------------------------------------------------------------contact*/
-
 /* --this sets the padding and background color of the div that contains the contact heading and text */
 .contact-div {
-    padding-top: 20px;
-    background-color: #520000;
+padding-top: 20px;
+background-color: #520000;
 }
 /* --this sets the margin and text align for the text on the contact div */
 .contact-div p {
-    text-align: center;
-    margin-top: 15px;
+text-align: center;
+margin-top: 15px;
 }
 /* --this sets padding for the div that contains the form and the map */
 .fm-div {
-    padding-top: 50px;
+padding-top: 50px;
 }
 /* --this styles the text for the form labels */
 .form-name {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-    color: #cf0000;
-    margin-bottom: 0;
+padding: 12px 12px 12px 0;
+display: inline-block;
+color: #cf0000;
+margin-bottom: 0;
 }
 /* --this styles the form inputs */
-input[type=text], input[type=email], select, textarea{
-    padding: 10px;
-    width: 100%;
-    border-radius: 8px;
-    border: 2px solid #cf0000;
-    box-sizing: border-box;
-    resize: vertical;
+input[type=text],
+input[type=email],
+select,
+textarea {
+padding: 10px;
+width: 100%;
+border-radius: 8px;
+border: 2px solid #cf0000;
+box-sizing: border-box;
+resize: vertical;
 }
 /* --this sets the position of the form button div */
 .fbutton-div {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 30px;
 }
 /* --this sets the margin and text align for the text on the contact div */
 .form-button {
-    height: 60px;
-    width: 150px;
-    border: 2px solid #2e0000;
-    border-radius: 5px;
-    background-color: #520000;
-    color: #fafafa;
-    margin-bottom: 3px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-/* --this sets the color change for the form button on hover */
-.form-button:hover {
-    background: #cf0000;
+height: 60px;
+width: 150px;
+border: 2px solid #2e0000;
+border-radius: 5px;
+background-color: #520000;
+color: #fafafa;
+margin-bottom: 3px;
+transition: all 0.35s ease-in-out;
+-moz-transition: all 0.35s ease-in-out;
+-webkit-transition: all 0.35s ease-in-out;
+-o-transition: all 0.35s ease-in-out;
 }
 /* --this removes the focus outline for the form button */
 .form-button:focus {
-    outline:none;
+outline: none;
 }
 /* --this sets the translucent black background for the div containing the form and map */
 .fmbox {
-    background-color: rgba(0, 0, 0, 0.8);
+background-color: rgba(0, 0, 0, 0.8);
 }
 /* --this sets the height for the form comment box */
 .comment-box {
-    height: 150px;
+height: 150px;
 }
 /* --this styles the responsive map */
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+.map-responsive {
+overflow: hidden;
+padding-bottom: 56.25%;
+position: relative;
+height: 0;
 }
 /* --this sets size and position of the map */
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.map-responsive iframe {
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+position: absolute;
 }
 /* --this sets the margins for the div containing the map */
 .map-div {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 15px;
-    margin-bottom: 30px;
+margin: 15px 15px 30px 15px;
 }
 /* --this sets max height of the map */
 iframe {
-    max-height: 500px;
+max-height: 500px;
 }
-
-
 /*------------------------------------------------------------------membership*/
 /* --this sets translucent black background, text align and margin for the membership options div */
 .membership-options {
-    text-align: center;
-    margin-top: 120px;
-    background-color: rgba(0, 0, 0, 0.8);
+text-align: center;
+margin-top: 120px;
+padding-top: 15px;
+background-color: rgba(0, 0, 0, 0.8);
 }
 /* --this styles the heading for membership options */
 .membership-options h1 {
-    color: #cf0000;
-    margin-bottom: 30px;
-    padding-top: 20px;
+color: #cf0000;
+margin-bottom: 30px;
+padding-top: 20px;
 }
 /* --this removes the bullet points and sets padding and margin for the membership options list */
 .membership-options ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 30px;
+list-style-type: none;
+padding: 0;
+margin-top: 30px;
 }
 /* --this sets the font size and color for the membership options list */
 .membership-options li {
-    color: #fafafa;
+color: #fafafa;
 }
 /* --this sets the position of the sign up button */
 .signup-div {
-    text-align: center;
-    margin: 0;
-    padding: 0;
+text-align: center;
+margin: 0;
+padding: 0;
 }
 /* --this styles the sign up button */
 .signup-btn {
-    height: 60px;
-    width: 150px;
-    border: 2px solid #2e0000;
-    border-radius: 5px;
-    background-color: #520000;
-    color: #fafafa;
-    margin-top: 40px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-/* --this changes the color of the sign up button on hover */
-.signup-btn:hover {
-    background: #cf0000;
+height: 60px;
+width: 150px;
+border: 2px solid #2e0000;
+border-radius: 5px;
+background-color: #520000;
+color: #fafafa;
+margin-top: 40px;
+transition: all 0.35s ease-in-out;
+-moz-transition: all 0.35s ease-in-out;
+-webkit-transition: all 0.35s ease-in-out;
+-o-transition: all 0.35s ease-in-out;
 }
 /* --this removes the focus outline from the sign up button */
 .signup-btn:focus {
-    outline:none;
+outline: none;
 }
-
-
-
-
+.join-up {
+font-size: 2.5em;
+color: #cf0000;
+}
+.modal-footer {
+padding-right:
+30px;
+}
 /* ---------------------------------------------------------------membership form and modal styling */
-
 /* --this styles the modal and sets the font */
 .modal {
-  font-family: 'Lato', sans-serif;
-  padding: 0!important;
-  margin: 0 auto;
-  width: 100%;
-  top: 0;
-  
+font-family: 'Lato', sans-serif;
+padding: 0!important;
+margin: 0 auto;
+width: 100%;
+top: 0;
 }
 /* --this styles the modal text */
-.modal-text{
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    color: #fafafa;
+.modal-text {
+font-family: 'Lato', sans-serif;
+color: #fafafa;
 }
 /* --this sets the text color for the modal header */
 .modal-header h2 {
-    color: #cf0000;
+color: #cf0000;
 }
 /* --this removes the padding from the right of the body */
-body { 
-    padding-right: 0 !important
+body {
+padding-right: 0 !important
 }
 /* --this removes the padding from the right of the modal */
 #membership-modal {
-    padding-right: 0 !important;
+padding-right: 0 !important;
 }
-/* --this sets the border and background color for the modal header */
-.modal-header{
-    background-color: black;
-    border: 3px solid #520000;
-}
-/* --this sets the border and background color for the modal body */
-.modal-body{
-    background-color: black;
-    border: 3px solid #520000;
-}
-/* --this sets the border and background color for the modal footer */
-.modal-footer{
-    background-color: black;
-    border: 3px solid #520000;
+/* --this sets the borders for the modal */
+.modal-header,
+.modal-body,
+.modal-footer {
+border: 3px solid #520000;
 }
 /* --this sets the margins for the form groups*/
-.form-group{
-    margin-top: 15px;
-    margin-bottom: 0px;
+.form-group {
+margin-top: 15px;
+margin-bottom: 0px;
 }
 /* --this sets margin for the radio button groups */
-.radio-group{
-    margin-top: 20px;
+.radio-group {
+margin-top: 20px;
 }
 /* --this styles the text and position of the radio button groups */
-.radio{
-    position: relative;
-    font-family: 'Lato', sans-serif;
-    color: #fafafa;
-    margin-left: 20px;
-    padding-left: 30px;
-    cursor: pointer;
-    display: block;
+.radio {
+position: relative;
+font-family: 'Lato', sans-serif;
+color: #fafafa;
+margin-left: 20px;
+padding-left: 30px;
+cursor: pointer;
+display: block;
 }
 /* --left margin for the radio groups */
-.radio + .radio{
-    margin-left: 20px;
+.radio+.radio {
+margin-left: 20px;
 }
 /* --hides the default radio button */
-.radio input[type="radio"]{
-    display: none;
+.radio input[type="radio"] {
+display: none;
 }
 /* --styling for custom radio button */
-.radio span{
-    display: block;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    border: 2px solid #cf0000;
-    position: absolute;
-    left: 0;
-    top: 7px;
+.radio span {
+display: block;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+border: 2px solid #cf0000;
+position: absolute;
+left: 0;
+top: 7px;
 }
 /* --styling for custom radio button after click */
-.radio span:after{
-    content: "";
-    height: 8px;
-    width: 8px;
-    background: #cf0000;
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%) scale(0);
-    border-radius: 50%;
-    transition: 300ms ease-in-out 0s;
+.radio span:after {
+content: "";
+height: 8px;
+width: 8px;
+background: #cf0000;
+display: block;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%) scale(0);
+border-radius: 50%;
+transition: 300ms ease-in-out 0s;
 }
 /* --animation for radio button */
-.radio input[type="radio"]:checked ~ span:after{
-    transform: translate(-50%,-50%) scale(2.2);
+.radio input[type="radio"]:checked~span:after {
+transform: translate(-50%, -50%) scale(2.2);
 }
-
 /*------------------------------------------------------------------footer*/
 /* --this styles the footer */
 footer {
-    background-color: #000000;
-    color: #fafafa;
-    min-height: 45px;
-    margin: 0;
-    border-top: 1px solid #cf0000;
+color: #fafafa;
+min-height: 45px;
+margin: 0;
+border-top: 1px solid #cf0000;
 }
 /* --this sets the position of the social links */
 .social-links {
-    padding-top: 20px;
-    padding-bottom: 5px;
-    text-align: center;
-    word-spacing: 50px;
+padding-top: 20px;
+padding-bottom: 5px;
+text-align: center;
+word-spacing: 50px;
 }
 /* --this styles the social links */
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 25%;
-    line-height: 7px;
-    text-align: center;
-    color: #000000;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+width: 32px;
+height: 32px;
+padding: 12px 0;
+border-radius: 25%;
+line-height: 7px;
+text-align: center;
+color: #000000;
+background: #8f8f8f;
+transition: all 0.35s ease-in-out;
+-moz-transition: all 0.35s ease-in-out;
+-webkit-transition: all 0.35s ease-in-out;
+-o-transition: all 0.35s ease-in-out;
 }
-/* --this sets the color change on hover for the social links */
-.social-links li a i:hover {
-    background: #cf0000;
-}
-
 /*------------------------------------------------------------------responsive*/
-
 /* --this styles the navbar burger button and hides it */
 .label-nav {
-    display: none;
-    margin: 0 40px 0 0;
-    text-align: center;
-    float: right;
-    color: #202020;
-       
+display: none;
+margin: 0 40px 0 0;
+text-align: center;
+float: right;
+color: #202020;
 }
 /* --this hides the nav bar burger button toggle */
 #toggle {
-    display: none;
+display: none;
 }
-
-
-
 /* --media query for below 1050px */
 @media only screen and (max-width: 1050px) {
-
 /* --this changes the header bar to a simplified version with a gradient */
 .header-bar {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 29%, rgba(170,21,21,1) 89%, rgba(255,0,0,1) 100%);
+background: rgb(0, 0, 0);
+background: linear-gradient(90deg, rgba(0, 0, 0, 1) 29%, rgba(170, 21, 21, 1) 89%, rgba(255, 0, 0, 1) 100%);
 }
 /* --this hides the logo */
 .logo {
-    display: none;
+display: none;
 }
 /* --this adjusts the position of the gym name*/
-.name{
-    margin-top: 15px;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    max-width: 80%;
+.name {
+margin-top: 15px;
+margin-bottom: 10px;
+margin-left: 30px;
+max-width: 80%;
 }
 /* --this adds a border to the top and bottom of the main background picture on the index page*/
 .front-page-bg {
-    border-top: solid 1px #cf0000;
-    border-bottom: solid 1px #cf0000;
+border-top: solid 1px #cf0000;
+border-bottom: solid 1px #cf0000;
 }
 /* --this removes the margins for the navbar*/
-.navcontainer{
-    margin: 0;
-} 
+.navcontainer {
+margin: 0;
+}
 /* --this reveals the navbar burger button*/
 .label-nav {
-    display: block;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-right: 0;
-} 
+display: block;
+cursor: pointer;
+margin-top: 10px;
+margin-right: 0;
+}
 /* this hides the navbar */
 .menu {
-    text-align: center;
-    display: none;
+text-align: center;
+display: none;
 }
 /* --this overwrites the original styling for the navbar buttons*/
 .menu li {
-    display: block;
-    margin: 0;
-    clear: right;
-    float: right;
-    right: 20px;
-    border: solid 1px #cf0000;
-    border-radius: 5px;
-    min-width: 200px;
-    
+display: block;
+margin: 0;
+clear: right;
+float: right;
+right: 20px;
+border: solid 1px #cf0000;
+border-radius: 5px;
+min-width: 200px;
 }
-/* --this sets the background color for the navbar home button */
-.ui-menu-color-home {
-    background-color: black;
-}
-/* --this sets the background color for the navbar big 3 button */
-.ui-menu-color-big3 {
-    background-color: black;
-}
-/* --this sets the background color for the navbar about button */
-.ui-menu-color-about {
-    background-color: black;
-}
-/* --this sets the background color for the navbar contact button */
-.ui-menu-color-contact {
-    background-color: black;
-}
-/* --this sets the background color for the navbar membership button */
+/* --this sets the background color for the navbar buttons */
+.ui-menu-color-home,
+.ui-menu-color-big3,
+.ui-menu-color-about,
+.ui-menu-color-contact,
 .ui-menu-color-membership {
-    background-color: black;
+background-color: #000000;
 }
 /* --this brings the div containing the burger button to the top of the z index */
 #dropdown {
-    position: absolute;
-    z-index: 99;
+position: absolute;
+z-index: 99;
 }
 /* --this sets the menu to display vertically when the burger button is clicked */
-#toggle:checked + .menu {
-    display: block;
+#toggle:checked+.menu {
+display: block;
 }
-
 }
-
 /* --media query for screens above 1150px */
 @media only screen and (min-width: 1150px) {
-
 /* --this sets the padding underneath the map */
 .map-responsive {
-    padding-bottom: 35%;
+padding-bottom: 35%;
 }
 }
-
 /* --media query for screens above 925px */
 @media only screen and (min-width: 925px) {
-
 /* --changes the max width to 75% for the about page intro */
 .about-box {
-    max-width: 75%;
+max-width: 75%;
 }
 /* --this changes the size of the jumbotron button */
 .jumbo-button {
-    height: 65px;
-    width: 155px;
+height: 65px;
+width: 155px;
 }
 /* --this changes the margin for the headers on the about page */
 .about-header {
-    margin-bottom: 20px;
+margin-bottom: 20px;
 }
 /* --this changes the position of the arrow on the index page */
 .index-divs i {
-    position: relative;
-    bottom: -30px;
+position: relative;
+bottom: -30px;
 }
-
-
-
 }
-
 /* --media query for screens above 768px */
 @media only screen and (min-width: 768px) {
-
-/* --this changes the padding for the text next to the squat video */    
+/* --this changes the padding for the text next to the squat video */
 .squat-text {
-    padding-top: 8%;
+padding-top: 8%;
 }
 /* --this changes the padding for the text next to the benchpress video */
 .bench-text {
-    padding-top: 8%;
+padding-top: 8%;
 }
 /* --this changes the padding for the text next to the deadlift video */
 .deadlift-text {
-    padding-top: 8%;
+padding-top: 8%;
 }
 /* --this centers and sets the max width for the intro on the big 3 page */
-.intro{
-    max-width: 75%;
-    margin: auto;
+.intro {
+max-width: 75%;
+margin: auto;
 }
 /* --this sets the margin for the div containing the map */
 .map-div {
-    margin: auto;
+margin: auto;
 }
 /* --this sets the left padding for the div containing the map and form*/
 .fm-div {
-    padding-left: 30px;
+padding-left: 30px;
 }
-
 }
-
 /* --media query for screens above 576px */
 @media (min-width: 576px) {
-    
-/* --this sets the radio buttons to display horizontally */   
+/* --this sets the radio buttons to display horizontally */
 .radio {
-    display: inline;
+display: inline;
 }
-
-    
 }
-
-
 /*-------------------------------------------------------------- slider section */
-
-/* --this sets the slider section background color */
-.slider-section {
-    background-color: black;
-}
 /* --this sets the max width for the slider */
 .slider-container {
-    max-width: 800px;
-    margin: 0 auto;
+max-width: 800px;
+margin: 0 auto;
 }
 /* --this hides the slider overflow */
 #slider {
-    overflow: hidden;
+overflow: hidden;
 }
 /* --this styles the slider and sets the animation */
 #slider figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 20s slider infinite;
-    height: 200px;
+position: relative;
+width: 500%;
+margin: 0;
+left: 0;
+animation: 20s slider infinite;
+height: 200px;
 }
 /* --this sets the width of the slider images as an equal percentage of the total number of images used */
 #slider figure img {
-    width: 20%;
-    float: left;
+width: 20%;
+float: left;
 }
 /* --this sets the timing for the slider animation */
 @keyframes slider {
-    0% {
-        left: 0;
-    }
-
-    20% {
-        left: 0;
-    }
-
-    25% {
-        left: -100%;
-    }
-
-    45% {
-        left: -100%;
-    }
-
-    50% {
-        left: -200%;
-    }
-
-    70% {
-        left: -200%;
-    }
-
-    75% {
-        left: -300%;
-    }
-
-    95% {
-        left: -300%;
-    }
-
-    100% {
-        left: -400%;
-    }
+0% {
+left: 0;
 }
-
+20% {
+left: 0;
+}
+25% {
+left: -100%;
+}
+45% {
+left: -100%;
+}
+50% {
+left: -200%;
+}
+70% {
+left: -200%;
+}
+75% {
+left: -300%;
+}
+95% {
+left: -300%;
+}
+100% {
+left: -400%;
+}
+}

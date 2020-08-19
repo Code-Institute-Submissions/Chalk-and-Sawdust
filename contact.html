@@ -1,174 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-	<link rel="icon" type="img/png" href="favicon.png" />
-
-	<title>Chalk and Sawdust PL Gym</title>
-</head>
-
-<body>
-	<header>
-
-<!-- ----------------------------------This is the navigation bar -->
-
-		<nav class="row navbar-bg-color no-gutters">
-			<div class="hori-center navcontainer">
-				<div class="col" id="dropdown">
-					<label for="toggle" class="label-nav">&#9776;</label>
-					<input type="checkbox" id="toggle"/>
-					<ul id="nav" class="list-inline navlist menu">
-						<li class="col-6 col-sm-2  list-inline-item ui-menu-color-home menuitem">
-							<a href="index.html" aria-label="this is a link to the home page">Home</a>
-						</li>
-						<li class="col-6 col-sm-2 list-inline-item ui-menu-color-big3 menuitem">
-							<a href="the-big-3.html" aria-label="this is a link to the big 3 page">The Big 3</a>
-						</li>
-						<li class="col-6 col-sm-2 list-inline-item ui-menu-color-about menuitem">
-							<a href="about.html" aria-label="this is a link to the about page">About</a>
-						</li>
-						<li class="col-6 col-sm-2 list-inline-item ui-menu-color-contact menuitem">
-							<a href="contact.html" aria-label="this is a link to the contact page">Contact</a>
-						</li>
-						<li class="col-6 col-sm-2 list-inline-item ui-menu-color-membership menuitem">
-							<a href="membership.html" aria-label="this is a link to the membership page">Membership</a>
-						</li>
-
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<!-- ----------------------------------This is the title bar and logo -->
-
-		<div class="container-fluid header-bar bg-color-name">
-			<div class="row no-gutters">
-				<div class="col-md-2 logo">
-					<a href="index.html"><img src="assets/images/CNSPL.png" alt="This is the logo"></a>
-				</div>
-				<div class="col-md-10 name">
-					<h1>Chalk And Sawdust Powerlifting Gym</h1>
-				</div>
-			</div>
-		</div>
-
-
-
-
-	</header>
-
-	<!-- ----------------------------------This section contains the contact header bar -->
-
-	<section>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col contact-div">
-					<h1>CONTACT</h1>
-					<p>Submit any questions or suggestions below and find us on the map!</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- ----------------------------------This section contains the sign up form and responsive map -->
-
-	<section class="fmbox">
-		<div class="container-fluid fm-div">
-			<div class="row">
-				<div class="col-md-6 form-div">
-					<form>
-						<div class="row">
-							<div class="col-6">
-								<label class="form-name" for="fname">First name*</label>
-								<input type="text" id="fname" name="fname" required><br>
-                            </div>
-							<div class="col-6">
-								<label class="form-name" for="lname">Last name*</label>
-								<input type="text" id="lname" name="lname" required><br>
-                            </div>
-						</div>
-
-						<div class="row">
-							<div class="col-6">
-								<label class="form-name" for="email">Email Address*</label>
-								<input type="email" id="email" name="email" required><br>
-                            </div>
-						    <div class="col-6">
-								<label class="form-name" for="subject">Subject*</label>
-								<input type="text" id="subject" name="subject" required><br>
-                            </div>
-						</div>
-
-						<div class="row">
-							<div class="col-12">
-								<label class="form-name" for="comment">Comment*</label>
-								<textarea type="text" id="comment" name="comment" class="comment-box" required></textarea><br>
-                            </div>
-						</div>
-
-						<div class="fbutton-div">
-							<input class="form-button" type="submit" value="Submit">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+         type="text/css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+         type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+         type="text/css" />
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+      <link rel="icon" type="img/png" href="favicon.png" />
+      <title>Chalk and Sawdust PL Gym</title>
+   </head>
+   <body>
+      <header>
+         <!-- ----------------------------------This is the navigation bar -->
+         <nav class="row navbar-bg-color no-gutters">
+            <div class="hori-center navcontainer">
+               <div class="col" id="dropdown">
+                  <label for="toggle" class="label-nav">&#9776;</label>
+                  <input type="checkbox" id="toggle"/>
+                  <ul id="nav" class="list-inline navlist menu">
+                     <li class="col-6 col-sm-2  list-inline-item ui-menu-color-home menuitem">
+                        <a href="index.html" aria-label="this is a link to the home page">Home</a>
+                     </li>
+                     <li class="col-6 col-sm-2 list-inline-item ui-menu-color-big3 menuitem">
+                        <a href="the-big-3.html" aria-label="this is a link to the big 3 page">The Big 3</a>
+                     </li>
+                     <li class="col-6 col-sm-2 list-inline-item ui-menu-color-about menuitem">
+                        <a href="about.html" aria-label="this is a link to the about page">About</a>
+                     </li>
+                     <li class="col-6 col-sm-2 list-inline-item ui-menu-color-contact menuitem">
+                        <a href="contact.html" aria-label="this is a link to the contact page">Contact</a>
+                     </li>
+                     <li class="col-6 col-sm-2 list-inline-item ui-menu-color-membership menuitem">
+                        <a href="membership.html" aria-label="this is a link to the membership page">Membership</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <!-- ----------------------------------This is the title bar and logo -->
+         <div class="container-fluid header-bar bg-color-name">
+            <div class="row no-gutters">
+               <div class="col-md-2 logo">
+                  <a href="index.html">
+                  <img src="assets/images/CNSPL.png" alt="This is the logo">
+                  </a>
+               </div>
+               <div class="col-md-10 name">
+                  <h1>Chalk And Sawdust Powerlifting Gym</h1>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- ----------------------------------This section contains the contact header bar -->
+      <section>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col contact-div">
+                  <h2 class="text-center">CONTACT</h2>
+                  <p>Submit any questions or suggestions below and find us on the map!</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ----------------------------------This section contains the sign up form and responsive map -->
+      <section class="fmbox">
+         <div class="container-fluid fm-div">
+            <div class="row">
+               <div class="col-md-6 form-div">
+                  <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+                     <div class="row">
+                        <div class="col-6">
+                           <label class="form-name" for="fname">First name*</label>
+                           <input type="text" id="fname" name="fname" required>
+                           <br>
                         </div>
-
-					</form>
-
-				</div>
-				<div class="col-md-5 map-responsive map-div">
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78797.36933540236!2d-2.1526855056838436!3d51.88983930921208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48710338502e34ab%3A0xd067bca541f9e020!2sCheltenham!5e0!3m2!1sen!2suk!4v1594936911493!5m2!1sen!2suk"
-						width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-						aria-hidden="false" tabindex="0"></iframe>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
-	<!-- ----------------------------------The footer containing social media links -->
-
-	<footer class="container-fluid">
-
-		<div class="row">
-			<div class="col-12">
-
-				<ul class="list-inline social-links">
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fa fa-facebook" aria-label="this is a link to the facebook fan page"></i>
-							<span class="sr-only">Facebook</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fa fa-twitter" aria-label="this is a link to the facebook twitter page"></i>
-							<span class="sr-only">Twitter</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-							<i class="fa fa-instagram insta-logo" aria-label="this is a link to the instagram fan page"></i>
-							<span class="sr-only">Instagram</span>
-						</a>
-					</li>
-
-				</ul>
-
-			</div>
-		</div>
-
-	</footer>
-
-</body>
-
+                        <div class="col-6">
+                           <label class="form-name" for="lname">Last name*</label>
+                           <input type="text" id="lname" name="lname" required>
+                           <br>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-6">
+                           <label class="form-name" for="email">Email Address*</label>
+                           <input type="email" id="email" name="email" required>
+                           <br>
+                        </div>
+                        <div class="col-6">
+                           <label class="form-name" for="subject">Subject*</label>
+                           <input type="text" id="subject" name="subject" required>
+                           <br>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-12">
+                           <label class="form-name" for="comment">Comment*</label>
+                           <textarea id="comment" name="comment" class="comment-box" required></textarea>
+                           <br>
+                        </div>
+                     </div>
+                     <div class="fbutton-div">
+                        <input class="form-button" type="submit" value="Submit">
+                     </div>
+                  </form>
+               </div>
+               <div class="col-md-5 map-responsive map-div">
+                  <iframe
+                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78797.36933540236!2d-2.1526855056838436!3d51.88983930921208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48710338502e34ab%3A0xd067bca541f9e020!2sCheltenham!5e0!3m2!1sen!2suk!4v1594936911493!5m2!1sen!2suk"
+                     width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                     aria-hidden="false" tabindex="0"></iframe>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ----------------------------------The footer containing social media links -->
+      <footer class="container-fluid">
+         <div class="row">
+            <div class="col-12">
+               <ul class="list-inline social-links">
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://www.facebook.com/facebook">
+                     <i class="fa fa-facebook" aria-label="this is a link to the facebook fan page"></i>
+                     <span class="sr-only">Facebook</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://twitter.com/?lang=en-gb">
+                     <i class="fa fa-twitter" aria-label="this is a link to the facebook twitter page"></i>
+                     <span class="sr-only">Twitter</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://www.instagram.com/?hl=en">
+                     <i class="fa fa-instagram insta-logo" aria-label="this is a link to the instagram fan page"></i>
+                     <span class="sr-only">Instagram</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+   </body>
 </html>
