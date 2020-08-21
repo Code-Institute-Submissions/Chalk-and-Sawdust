@@ -52,15 +52,15 @@ Users:
 
 # Testing
 
-Website has been tested using [GTmetrix](https://gtmetrix.com/reports/fandressouza.github.io/7xHu6MBv) and [BrowserStack](), see results below:
+Website has been tested using [GTmetrix](https://gtmetrix.com/reports/joshhunt1991.github.io/LrIif2jR) and [BrowserStack](), see results below:
 
 ![Website Speed Test Results](images/speed_test.png)
 
 The points below can be improved with a bit more optimization:
 
-- Serving scaled images (some images are being resized in CSS e.g. logo.png)
+- Image optimization
 - Leveraging browser caching
-- When I did this test, css/theme.css returned a 404 (Imispelled Theme.css)
+
 
 # Scalability
 
