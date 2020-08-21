@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/fandressouza/food-truck-culture/blob/master/images/logo.png?raw=true" alt="Food truck culture logo"/>
+  <img src="https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/9676f8f67e486354209e52c9dfc19f63f9d707cc/assets/images/CNSPL.png" alt="Chalk and Sawdust Powerlifting gym logo"/>
 </p>
 
 # Description
@@ -12,23 +12,23 @@
 
 # Deployment and Demo
 
-Website has been deployed to [GitHub Pages](https://fandressouza.github.io/food-truck-culture/).
+Website has been deployed to [GitHub Pages](https://joshhunt1991.github.io/Chalk-and-Sawdust/).
 
 # Wireframe
 
 The wireframe was designed using [Balsamiq](https://balsamiq.com/wireframes/) and links to the final version can be found below:
 
-- [Wireframe Final Version]()
+- [Wireframe Final Version](https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/9676f8f67e486354209e52c9dfc19f63f9d707cc/CHALK%20AND%20SAWDUST.bmpr)
 
 # UX
 
 I have opted to a simple and responsive design which is lightweight and has a loading time of less than 1 second.
 
-- Home page: Contains a jumbotron and a background image for the main section which resizes accordingly depending on user's viewport size
-- About us page: Contains a jumbotron with a inner carousel in the main section and a set of card elements at the bottom section for the leaders of the company
-- Franchise page: Contains a form in the first section so users can sign up as franchiser owners. Below we have reused a jumbotron with inner carousel
-- Services page: Services page contains a grid system with inner card elements
-- contact page: Contact page contains a contact form with a food truck PNG image on top
+- Home page: Contains a jumbotron, background image, and an automatic image slider which all resize accordingly depending on user's viewport size
+- The big 3 page: Contains and introduction to the concept of powerlifting and 3 responsive videos with accompanying text 
+- About page: Contains a paragraph explaining the gym ethos and 3 responsive images demonstrating the benefits of the gym.
+- Contact page: Contains a responsive contact form and responsive embedded google map 
+- Membership page: Contains opening times, information on membership packages and a button linking to a modal containing the membership form.
 
 ![Responsive image with many different monitors](images/responsive.png)
 
@@ -38,17 +38,17 @@ In order to improve user experience and website loading speed, I have compressed
 
 # Visual Identity
 
-- [Logo Pony](https://www.logopony.com/) for the logo design and stationary
+- [Canva](https://www.logopony.com/) for the logo design and stationary
 - [Bootswatch](https://bootswatch.com/) themes to add extra sweetness
 
 # User Stories
 
 Users:
 
-- As a user, I'd like to rent a food truck for an event
-- As a user, I'd like to contact the company to help me start my business
-- As a user, I'd like to see who are the leaders of the company
-- As a user, I'd like to sign up as a franchise owner for the company
+- As a user, I'd like to get a feel for the atmosphere of the gym
+- As a user, I'd like to contact the company with any questions I have
+- As a user, I'd like to see what the facilities are
+- As a user, I'd like to sign up for membership
 
 Food truck owners:
 
@@ -84,25 +84,25 @@ Also, I'd like franchise owners to have a private section where they can find re
 
 I have used different resources for images and my logo, I'll list all below:
 
-- [Logo Pony](https://www.logopony.com/) for the logo design and stationary
-- [Unsplash](https://unsplash.com) for all the images
-- [Font Awesome](https://fontawesome.com/6?next=%2Fstart) for the amazing icons used on this site
-- [Am I Responsive](http://ami.responsivedesign.is/) for the cool image in the UX section
+- [Canva](https://www.canva.com/) for the logo design
+- [Pexels](https://www.pexels.com) for the textured red background image used across the site
+- [Font Awesome](https://fontawesome.com/6?next=%2Fstart) for the downward arrow on the home page
+- [Pixabay](https://pixabay.com/) for the rest of the images
+
 
 # Thanks to
 
 - Font awesome community for developing this great resource
 - Bootstrap crew for developing and maintaining such great library
 - jQuery developers for all the work and great documentation
-- Logo pony for the great service
-- Unsplash.com for the wonderful pictures
-- Microsoft for developing VScode and providing it free of charge
+- Canva for the great service
+- Pixabay and Pexels for creating such convenient resources of free use images
 
 # License
 
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
-Copyright 2020 Felipe Souza Alarcon.
+Copyright 2020 Joshua Connor Hunt.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
