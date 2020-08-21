@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/9676f8f67e486354209e52c9dfc19f63f9d707cc/assets/images/CNSPL.png" alt="Chalk and Sawdust Powerlifting gym logo"/>
+  <img src="https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/0905e52615c5eda77c9ab60f499e8765b582ccb6/assets/images/CNSPL.png" alt="Chalk and Sawdust Powerlifting gym logo"/>
 </p>
 
 # Description
@@ -38,8 +38,7 @@ In order to improve user experience and website loading speed, I have compressed
 
 # Visual Identity
 
-- [Canva](https://www.logopony.com/) for the logo design and stationary
-- [Bootswatch](https://bootswatch.com/) themes to add extra sweetness
+- [Canva](https://www.logopony.com/) for the logo design and then the color scheme was extended from this to the rest of the site
 
 # User Stories
 
@@ -50,12 +49,6 @@ Users:
 - As a user, I'd like to see what the facilities are
 - As a user, I'd like to sign up for membership
 
-Food truck owners:
-
-- As a business owner, I'd like to list my services in the site
-- As a business owner, I'd like to receive legal advice on certain issues
-- As a business owner, I'd like to access the members area
-- As a business owner, I'd like to connect with other businesses in my area
 
 # Testing
 
