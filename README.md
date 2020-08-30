@@ -18,7 +18,7 @@ Website has been deployed to [GitHub Pages](https://joshhunt1991.github.io/Chalk
 
 The wireframe was designed using [Balsamiq](https://balsamiq.com/wireframes/) and links to the final version can be found below:
 
-- [Wireframe Final Version](/workspace/chalk-and-sawdust/CHALK AND SAWDUST.bmpr)
+- [Wireframe Final Version](/readmelinks/CHALK AND SAWDUST.bmpr)
 
 # UX
 
@@ -31,8 +31,8 @@ I have opted for a responsive design which is quite image heavy and has a loadin
 - Membership page: Contains opening times, information on membership packages, a button linking to a modal containing the membership form and another image slider.
 
 ![image of responsive web page in desktop size](images/desktop.png)
-![image of responsive web page in desktop size](images/tablet.png)
-![image of responsive web page in desktop size](images/mobile.png)
+![image of responsive web page in tablet size](images/tablet.png)
+![image of responsive web page in mobile size](images/mobile.png)
 
 In order to improve user experience and website loading speed I resized some of my images to closer to their actual size on the site which improved loading time from 2.4 seconds to 1.4 seconds.
 
