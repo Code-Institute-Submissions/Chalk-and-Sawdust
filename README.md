@@ -59,7 +59,7 @@ Gym owner:
 
 Website has been tested using [GTmetrix](https://gtmetrix.com/reports/joshhunt1991.github.io/FwfY1qpW) see results below:
 
-![gt metrix test Results](https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/c7c51b77b2665ef42cc6064416a9188ca346ce0e/gt%20metrix%20test.pdf)
+![gt metrix test Results](/readmelinks/gtmetrix.pdf)
 
 The points below can be improved with a bit more optimization:
 
