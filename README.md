@@ -22,19 +22,19 @@ The wireframe was designed using [Balsamiq](https://balsamiq.com/wireframes/) an
 
 # UX
 
-I have opted to a simple and responsive design which is lightweight and has a loading time of less than 1 second.
+I have opted for a responsive design which is quite image heavy and has a loading time of 3.1 seconds.
 
 - Home page: Contains a jumbotron, background image, and an automatic image slider which all resize accordingly depending on user's viewport size
 - The big 3 page: Contains and introduction to the concept of powerlifting and 3 responsive videos with accompanying text 
 - About page: Contains a paragraph explaining the gym ethos and 3 responsive images demonstrating the benefits of the gym.
-- Contact page: Contains a responsive contact form and responsive embedded google map 
-- Membership page: Contains opening times, information on membership packages and a button linking to a modal containing the membership form.
+- Contact page: Contains a responsive contact form, responsive embedded google map and another image slider
+- Membership page: Contains opening times, information on membership packages, a button linking to a modal containing the membership form and another image slider.
 
-![Responsive image with many different monitors](images/responsive.png)
+![image of responsive web page in desktop size](images/desktop.png)
+![image of responsive web page in desktop size](images/tablet.png)
+![image of responsive web page in desktop size](images/mobile.png)
 
-In order to improve user experience and website loading speed, I have compressed the images using [tinypng.com](https://tinypng.com/) and the reduction in image size has been 57%.
-
-![tinypng image saving results](images/image_compressor.png)
+In order to improve user experience and website loading speed I resized some of my images to closer to their actual size on the site which improved loading time from 2.4 seconds to 1.4 seconds.
 
 # Visual Identity
 
@@ -49,24 +49,38 @@ Users:
 - As a user, I'd like to see what the facilities are
 - As a user, I'd like to sign up for membership
 
+Gym owner:
+
+- As a gym owner, I'd like the site to be user friendly
+- As a gym owner, I'd like the user to be able to sign up for a membership
+- As a gym owner, I'd like the website to give the user information about the opening times and membership packages
 
 # Testing
 
-Website has been tested using [GTmetrix](https://gtmetrix.com/reports/joshhunt1991.github.io/LrIif2jR) and [BrowserStack](), see results below:
+Website has been tested using [GTmetrix](https://gtmetrix.com/reports/joshhunt1991.github.io/FwfY1qpW) see results below:
 
-![Website Speed Test Results](images/speed_test.png)
+![gt metrix test Results](https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/c7c51b77b2665ef42cc6064416a9188ca346ce0e/gt%20metrix%20test.pdf)
 
 The points below can be improved with a bit more optimization:
 
 - Image optimization
 - Leveraging browser caching
 
+I tested the modal form to make sure that it opens and submits to the code institute form dump. images below.
+
+[Opening the modal](https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/c7c51b77b2665ef42cc6064416a9188ca346ce0e/assets/images/modal%20open.png)
+[Making sure fields are required](https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/c7c51b77b2665ef42cc6064416a9188ca346ce0e/assets/images/required.png)
+[Submitting to form dump](https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/c7c51b77b2665ef42cc6064416a9188ca346ce0e/assets/images/form%20submit.png)
+
+I also tested the contact form. Images below.
+
+[Modal filled out](https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/c7c51b77b2665ef42cc6064416a9188ca346ce0e/assets/images/form2.png)
+[Submitted to form dump](https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/c7c51b77b2665ef42cc6064416a9188ca346ce0e/assets/images/form2submit.png)
+
 
 # Scalability
 
-Using a back-end programming language and database, I'd like to have a fully featured CMS which can be used by non-technical people to create, read, update and delete data easily.
-
-Also, I'd like franchise owners to have a private section where they can find resources and talk directly to our customer service representatives.
+I'd like to have an intergrated web chat application on the website that allows users to talk directly in real time to a personal trainer to do online assessments before setting foot in the gym.
 
 # Technologies
 

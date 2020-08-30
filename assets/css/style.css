@@ -375,6 +375,15 @@ margin-top: 15px;
 background-color: rgba(0, 0, 0, 0.8);
 padding-top: 60px;
 }
+/* --this sets background image for the bottom of the about page */
+.about2-bg {
+background: url(../images/chain.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 300px;
+max-width: 100%;
+}
 /*------------------------------------------------------------------background images*/
 /* --this is the front page background image */
 .front-page-bg {
@@ -549,6 +558,20 @@ color: #cf0000;
 .modal-footer {
 padding-right:
 30px;
+}
+.fitness-journey {
+background: url(../images/fjourney.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 620px;
+border-top: solid 80px #000000;
+}
+.fitness-journey h2 {
+    position: relative;
+    top: 210px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 /* ---------------------------------------------------------------membership form and modal styling */
 /* --this styles the modal and sets the font */
