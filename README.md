@@ -79,7 +79,7 @@ I also tested the contact form. Images below.
 
 I then decided to test the dropdown navbar. Images below.
 
-[making sure the dropdown menu opens on click](/readmelinks/ddown.png) <br/>
+[Making sure the dropdown menu opens on click](/readmelinks/ddown.png) <br/>
 [Ensuring that the color change hover effect works](/readmelinks/hover.png) <br/>
 
 
