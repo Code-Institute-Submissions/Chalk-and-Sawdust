@@ -68,14 +68,14 @@ The points below can be improved with a bit more optimization:
 
 I tested the modal form to make sure that it opens and submits to the code institute form dump. images below.
 
-[Opening the modal](https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/c7c51b77b2665ef42cc6064416a9188ca346ce0e/assets/images/modal%20open.png)
-[Making sure fields are required](https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/c7c51b77b2665ef42cc6064416a9188ca346ce0e/assets/images/required.png)
-[Submitting to form dump](https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/c7c51b77b2665ef42cc6064416a9188ca346ce0e/assets/images/form%20submit.png)
+[Opening the modal](/readmelinks/modalopen.png)
+[Making sure fields are required](/readmelinks/required.png)
+[Submitting to form dump](/readmelinks/formsubmit.png)
 
 I also tested the contact form. Images below.
 
-[Modal filled out](https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/c7c51b77b2665ef42cc6064416a9188ca346ce0e/assets/images/form2.png)
-[Submitted to form dump](https://github.com/joshhunt1991/Chalk-and-Sawdust/blob/c7c51b77b2665ef42cc6064416a9188ca346ce0e/assets/images/form2submit.png)
+[Modal filled out](/readmelinks/form2.png)
+[Submitted to form dump](/readmelinks/form2submit.png)
 
 
 # Scalability
