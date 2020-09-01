@@ -68,14 +68,14 @@ The points below can be improved with a bit more optimization:
 
 I tested the modal form to make sure that it opens and submits to the code institute form dump. images below.
 
-[Opening the modal](/readmelinks/modalopen.png)
-[Making sure fields are required](/readmelinks/required.png)
-[Submitting to form dump](/readmelinks/formsubmit.png)
+[Opening the modal](/readmelinks/modalopen.png) <br/>
+[Making sure fields are required](/readmelinks/required.png) <br/>
+[Submitting to form dump](/readmelinks/formsubmit.png) <br/>
 
 I also tested the contact form. Images below.
 
-[Modal filled out](/readmelinks/form2.png)
-[Submitted to form dump](/readmelinks/form2submit.png)
+[Modal filled out](/readmelinks/form2.png) <br/>
+[Submitted to form dump](/readmelinks/form2submit.png) <br/>
 
 
 # Scalability
