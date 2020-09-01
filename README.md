@@ -30,9 +30,9 @@ I have opted for a responsive design which is quite image heavy and has a loadin
 - Contact page: Contains a responsive contact form, responsive embedded google map and another image slider
 - Membership page: Contains opening times, information on membership packages, a button linking to a modal containing the membership form and another image slider.
 
-[image of responsive web page in desktop size](/readmelinks/desktop.png)
-[image of responsive web page in tablet size](/readmelinks/tablet.png)
-[image of responsive web page in mobile size](/readmelinks/mobile.png)
+[image of responsive web page in desktop size](/readmelinks/desktop.png) <br/>
+[image of responsive web page in tablet size](/readmelinks/tablet.png) <br/>
+[image of responsive web page in mobile size](/readmelinks/mobile.png) <br/>
 
 In order to improve user experience and website loading speed I resized some of my images to closer to their actual size on the site which improved loading time from 2.4 seconds to 1.4 seconds.
 
