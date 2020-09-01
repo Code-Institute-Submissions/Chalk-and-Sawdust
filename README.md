@@ -77,6 +77,11 @@ I also tested the contact form. Images below.
 [Modal filled out](/readmelinks/form2.png) <br/>
 [Submitted to form dump](/readmelinks/form2submit.png) <br/>
 
+I then decided to test the dropdown navbar. Images below.
+
+[making sure the dropdown menu opens on click](/readmelinks/ddown.png) <br/>
+[Ensuring that the color change hover effect works](/readmelinks/hover.png) <br/>
+
 
 # Scalability
 
