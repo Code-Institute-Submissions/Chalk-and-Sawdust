@@ -82,6 +82,12 @@ I then decided to test the dropdown navbar. Images below.
 [Making sure the dropdown menu opens on click](/readmelinks/ddown.png) <br/>
 [Ensuring that the color change hover effect works](/readmelinks/hover.png) <br/>
 
+# Bugs
+
+- found a bug where the images on the about page weren't showing on android operating systems, I changed the image location from a local link to hosted on IMGUR which solved the issue
+
+- found a bug where the "click me" button on the index page was displaying incorrectly on iphone browsers. Currently unsolved.
+
 
 # Scalability
 
